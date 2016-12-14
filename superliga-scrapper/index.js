@@ -20,6 +20,7 @@ var getSchedule = function(url) {
 
             $('.titulo-rodada').each(function(i, elem) {
                 var round = i + 1;
+                console.log(`Round: ${round}`);
                 $(this).nextUntil('.titulo-rodada').each(function(i, elem) {
                     var rawDate = $(this).find('.data').last().html().split('<br>')[0];
                     var date = moment(rawDate, 'DD/MM/YYYY | HH:mm').format('YYYY-MM-DD HH:mm');
@@ -30,7 +31,7 @@ var getSchedule = function(url) {
                     }
                     var home = $(this).find('.equipes').children().first().children().last().text();
                     var away = $(this).find('.equipes').children().last().children().last().text();
-
+                    console.log(`${home}`);
                     games.push({
                         id: uuid(),
                         round: round,
