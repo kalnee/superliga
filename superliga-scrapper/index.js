@@ -13,6 +13,8 @@ var getSchedule = function(url) {
                 reject(`Failed to access ${url}`);
             }
 
+            console.log(`Successfully accessed ${url}`);
+
             var games = [];
             var $ = cheerio.load(html);
 
@@ -40,7 +42,7 @@ var getSchedule = function(url) {
                 });
             });
 
-            console.log(JSON.stringify(games));
+            console.log('Finished scrapping');
 
             resolve(games);
         });
@@ -66,7 +68,7 @@ app.get('/women/schedule', function(req, res) {
 });
 
 app.listen(process.env.PORT || 3000, function() {
-    console.log('Service running on port ' + process.env.PORT || 3000);
+    console.log('Service running on port ' + (process.env.PORT || 3000));
 });
 
 exports = module.exports = app;
