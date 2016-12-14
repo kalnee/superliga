@@ -14,7 +14,7 @@ var getSchedule = function(url) {
             }
 
             console.log(`Successfully accessed ${url}`);
-            
+
             var games = [];
             var $ = cheerio.load(html);
 
@@ -48,6 +48,38 @@ var getSchedule = function(url) {
     });
 }
 
+var getTeams = function(url) {
+    return new Promise(function(resolve, reject) {
+        request(url, function(error, response, html) {
+            if (error) {
+                reject(`Failed to access ${url}`);
+            }
+
+            console.log(`Successfully accessed ${url}`);
+
+            var teams = [];
+            var $ = cheerio.load(html);
+
+            $('.processo').children('a').each(function(i, elem) {
+                var name = $(this).attr('title').trim();
+                var code = $(this).attr('href').substr(-3);
+
+                var regex = /.*background: url\('(.*)'\).*/g
+                var logo = regex.exec($(this).attr('style'))[1].slice(0, -9);
+
+                teams.push({
+                    id: uuid(),
+                    name: name,
+                    code: code,
+                    logo: logo
+                });
+            });
+
+            resolve(teams);
+        });
+    });
+}
+
 app.get('/men/schedule', function(req, res) {
     getSchedule("http://superliga.cbv.com.br/tabela-jogos/Masculino")
         .then(function(schedule) {
@@ -57,10 +89,28 @@ app.get('/men/schedule', function(req, res) {
         });
 });
 
+app.get('/men/teams', function(req, res) {
+    getTeams("http://superliga.cbv.com.br/equipes-masc")
+        .then(function(teams) {
+            res.send(teams);
+        }).catch(function(error) {
+            res.sendError(error);
+        });
+});
+
 app.get('/women/schedule', function(req, res) {
     getSchedule("http://superliga.cbv.com.br/tabela-jogos/Feminino")
         .then(function(schedule) {
             res.send(schedule);
+        }).catch(function(error) {
+            res.sendError(error);
+        });
+});
+
+app.get('/women/teams', function(req, res) {
+    getTeams("http://superliga.cbv.com.br/equipes-fem")
+        .then(function(teams) {
+            res.send(teams);
         }).catch(function(error) {
             res.sendError(error);
         });
