@@ -1,7 +1,7 @@
 {
-    "name": "superliga-scrapper",
+    "name": "superliga-scraper",
     "version": "1.0.0",
-    "description": "Web scrapper to collect data from the Superliga website.",
+    "description": "Web scraper to collect data from the Superliga website.",
     "main": "index.js",
     "scripts": {
         "start": "node index.js",

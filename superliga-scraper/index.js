@@ -14,8 +14,7 @@ var getSchedule = function(url) {
             }
 
             console.log(`Successfully accessed ${url}`);
-            console.log(html);
-
+            
             var games = [];
             var $ = cheerio.load(html);
 
@@ -43,9 +42,7 @@ var getSchedule = function(url) {
                 });
             });
 
-            console.log('Finished scrapping');
-            console.log(JSON.stringify(games));
-
+            console.log('Finished scraping');
             resolve(games);
         });
     });

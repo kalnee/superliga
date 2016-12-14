@@ -1,6 +1,6 @@
-<h1 align="center">superliga-scrapper</h1>
+<h1 align="center">superliga-scraper</h1>
 
-<h5 align="center">Web scrapper to collect data from the Superliga's website.</h5>
+<h5 align="center">Web scraper to collect data from the Superliga's website.</h5>
 
 ## Usage
 
