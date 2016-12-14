@@ -1,7 +1,6 @@
 var cheerio = require('cheerio');
 var express = require('express');
 var request = require('request');
-var uuid = require('uuid/v1');
 var moment = require('moment');
 
 var app = express();
@@ -32,7 +31,7 @@ var getSchedule = function(url) {
                     var away = $(this).find('.equipes').children().last().children().last().text();
 
                     games.push({
-                        id: uuid(),
+                        id: (round - 1) * 6 + i + 1,
                         round: round,
                         date: date,
                         tv: tv,
@@ -42,7 +41,7 @@ var getSchedule = function(url) {
                 });
             });
 
-            console.log('Finished scraping');
+            console.log('Finished scraping schedule');
             resolve(games);
         });
     });
@@ -68,13 +67,14 @@ var getTeams = function(url) {
                 var logo = regex.exec($(this).attr('style'))[1].slice(0, -9);
 
                 teams.push({
-                    id: uuid(),
+                    id: (i+1),
                     name: name,
                     code: code,
                     logo: logo
                 });
             });
 
+            console.log('Finished scraping teams');
             resolve(teams);
         });
     });
