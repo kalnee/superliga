@@ -43,6 +43,7 @@ var getSchedule = function(url) {
             });
 
             console.log('Finished scrapping');
+            console.log(JSON.stringify(games));
 
             resolve(games);
         });
