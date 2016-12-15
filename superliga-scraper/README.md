@@ -29,18 +29,16 @@
         "17-25"
       ]
     }
-  }]
+}]
 ```
 
-`$ curl http://localhost:3000/women/fixtures`
+`$ curl http://localhost:3000/women/teams`
 
 ```json
 [{
-  "id": "cad43500-c217-11e6-9ca6-ebbf66ff569a",
-  "round": 1,
-  "date": "2016-10-27 19:00",
-  "tv": null,
-  "home": "RENATA VALINHOS / COUNTRY ",
-  "away": "DENTIL/PRAIA CLUBE"
+    "id": 1,
+    "name": "SESI-SP",
+    "code": "SES",
+    "logo": "http://superliga.cbv.com.br/img/equipes/fem_10.png"
 }]
 ```
