@@ -29,6 +29,17 @@ var getSchedule = function(url) {
                     }
                     var home = $(this).find('.equipes').children().first().children().last().text();
                     var away = $(this).find('.equipes').children().last().children().last().text();
+                    var sets = $(this).find('.sets').text().trim().replace(/\s+/g, '');
+
+                    var result = null;
+
+                    if (sets.length > 1) {
+                        result = {
+                            homeSets: sets.substr(0, 3).split('X')[0],
+                            awaySets: sets.substr(0, 3).split('X')[1],
+                            partials: sets.substr(3).split('|')
+                        };
+                    }
 
                     games.push({
                         id: (round - 1) * 6 + i + 1,
@@ -36,7 +47,8 @@ var getSchedule = function(url) {
                         date: date,
                         tv: tv,
                         home: home,
-                        away: away
+                        away: away,
+                        result: result
                     });
                 });
             });
@@ -67,7 +79,7 @@ var getTeams = function(url) {
                 var logo = regex.exec($(this).attr('style'))[1].slice(0, -9);
 
                 teams.push({
-                    id: (i+1),
+                    id: (i + 1),
                     name: name,
                     code: code,
                     logo: logo
@@ -80,7 +92,7 @@ var getTeams = function(url) {
     });
 }
 
-app.get('/men/schedule', function(req, res) {
+app.get('/men/fixtures', function(req, res) {
     getSchedule("http://superliga.cbv.com.br/tabela-jogos/Masculino")
         .then(function(schedule) {
             res.send(schedule);
@@ -98,7 +110,7 @@ app.get('/men/teams', function(req, res) {
         });
 });
 
-app.get('/women/schedule', function(req, res) {
+app.get('/women/fixtures', function(req, res) {
     getSchedule("http://superliga.cbv.com.br/tabela-jogos/Feminino")
         .then(function(schedule) {
             res.send(schedule);

@@ -9,20 +9,30 @@
 
 ## Endpoints
 
-`$ curl http://localhost:3000/men/schedule`
+`$ curl http://localhost:3000/men/fixtures`
 
 ```json
-[{  
-   "id":"249ffa20-c14f-11e6-859d-43475c136a54",
-   "round":10,
-   "date":"2016-12-17 19:30",
-   "tv":"SportTV",
-   "home":"SADA CRUZEIRO VÔLEI",
-   "away":"FUNVIC TAUBATÉ"
-}]
+[{
+    "id": 1,
+    "round": 1,
+    "date": "2016-10-26 20:00",
+    "tv": null,
+    "home": "JF VÔLEI",
+    "away": "VÔLEI BRASIL KIRIN",
+    "result": {
+      "homeSets": "1",
+      "awaySets": "3",
+      "partials": [
+        "25-23",
+        "17-25",
+        "21-25",
+        "17-25"
+      ]
+    }
+  }]
 ```
 
-`$ curl http://localhost:3000/women/schedule`
+`$ curl http://localhost:3000/women/fixtures`
 
 ```json
 [{
