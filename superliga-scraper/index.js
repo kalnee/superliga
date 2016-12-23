@@ -158,7 +158,7 @@ app.get('/v1/:gender/fixtures', function(req, res) {
     var gender = req.params.gender;
     var team = req.query.team;
     var home = req.query.home === 'true';
-    var future = req.query.future;
+    var future = req.query.future === 'true';
 
     var fixtures = JSON.parse(fs.readFileSync(`data/fixtures-${gender}.json`, 'utf8'));
 
