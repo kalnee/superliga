@@ -1,0 +1,29 @@
+{
+  "name": "superliga-ui",
+  "version": "1.0.0",
+  "description": "Front-end website to allow users to create calendar events for a particular volleyball team",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lite-server",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "6.5.x",
+    "npm": "3.10.x"
+  },
+  "keywords": [
+    "volleyball",
+    "volley",
+    "superliga",
+    "volei"
+  ],
+  "author": "danielfc,kellysampaio",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.2.2"
+  },
+  "dependencies": {
+    "skeleton-css": "^2.0.4"
+  }
+}
