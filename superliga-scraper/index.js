@@ -6,6 +6,8 @@ var fs = require('fs');
 
 var app = express();
 
+const DATE_FORMAT = 'YYYY-MM-DD HH:mm';
+
 var getFixtures = function(url) {
     return new Promise(function(resolve, reject) {
         request(url, function(error, response, html) {
@@ -22,11 +24,11 @@ var getFixtures = function(url) {
                 var round = i + 1;
                 $(this).nextUntil('.titulo-rodada').filter('.jogos-da-rodada').each(function(i, elem) {
                     var rawDate = $(this).find('.data').last().html().split('<br>')[0];
-                    var date = moment(rawDate, 'DD/MM/YYYY | HH:mm').format('YYYY-MM-DD HH:mm');
+                    var date = moment(rawDate, 'DD/MM/YYYY | HH:mm').format(DATE_FORMAT);
                     var img = $(this).find('.data').last().children('img');
                     var tv = null;
                     if (img.length > 0) {
-                        tv = img.attr('src').indexOf('sportv') > 0 ? 'SportTV' : 'RedeTV';
+                        tv = img.attr('src').indexOf('sportv') >= 0 ? 'SportTV' : 'RedeTV';
                     }
                     var home = $(this).find('.equipes').children().first().children().last().text();
                     var away = $(this).find('.equipes').children().last().children().last().text();
@@ -57,10 +59,10 @@ var getFixtures = function(url) {
             console.log('Finished scraping schedule');
 
             if (fixtures.length === 0) {
-              reject('No fixtures found. I problem may have occurred.');
+                reject('No fixtures found. I problem may have occurred.');
             }
 
-            var gender = url.indexOf('Feminino') > 0 ? 'women' : 'men';
+            var gender = url.indexOf('Feminino') >= 0 ? 'women' : 'men';
             fs.writeFile(`data/fixtures-${gender}.json`, JSON.stringify(fixtures, null, 2), function(err) {
                 if (err) return console.log(err);
                 console.log(`fixtures > data/fixtures-${gender}.json`);
@@ -102,10 +104,10 @@ var getTeams = function(url) {
             console.log('Finished scraping teams');
 
             if (teams.length === 0) {
-              reject('No teams found. I problem may have occurred.');
+                reject('No teams found. I problem may have occurred.');
             }
 
-            var gender = url.indexOf('equipes-fem') > 0 ? 'women' : 'men';
+            var gender = url.indexOf('equipes-fem') >= 0 ? 'women' : 'men';
             fs.writeFile(`data/teams-${gender}.json`, JSON.stringify(teams, null, 2), function(err) {
                 if (err) return console.log(err);
                 console.log(`teams > data/teams-${gender}.json`);
@@ -155,12 +157,20 @@ app.put('/v1/women/teams', function(req, res) {
 app.get('/v1/:gender/fixtures', function(req, res) {
     var gender = req.params.gender;
     var team = req.query.team;
+    var home = req.query.home === 'true';
+    var future = req.query.future;
 
     var fixtures = JSON.parse(fs.readFileSync(`data/fixtures-${gender}.json`, 'utf8'));
 
     if (team) {
         fixtures = fixtures.filter(function(fixture) {
-            return fixture.home.indexOf(team) > 0 || fixture.away.indexOf(team) > 0;
+            return fixture.home.indexOf(team) >= 0 || (!home && fixture.away.indexOf(team) >= 0);
+        });
+    }
+
+    if (future) {
+        fixtures = fixtures.filter(function(fixture) {
+            return moment(fixture.date, DATE_FORMAT).isAfter(moment());
         });
     }
 

@@ -9,7 +9,7 @@
 
 ## Endpoints
 
-`$ curl http://localhost:3000/men/fixtures`
+`$ curl http://localhost:3000/v1/men/fixtures`
 
 ```json
 [{
@@ -32,7 +32,7 @@
 }]
 ```
 
-`$ curl http://localhost:3000/women/teams`
+`$ curl http://localhost:3000/v1/women/teams`
 
 ```json
 [{
