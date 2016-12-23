@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "SESI-SP",
+    "code": "SES",
+    "logo": "http://superliga.cbv.com.br/img/equipes/fem_10.png"
+  },
+  {
+    "id": 2,
+    "name": "DENTIL/PRAIA CLUBE",
+    "code": "DPC",
+    "logo": "http://superliga.cbv.com.br/img/equipes/fem_15.png"
+  },
+  {
+    "id": 3,
+    "name": "TERRACAP/BRB/BRASÍLIA VÔLEI",
+    "code": "BSB",
+    "logo": "http://superliga.cbv.com.br/img/equipes/fem_17.png"
+  },
+  {
+    "id": 4,
+    "name": "E.C.PINHEIROS",
+    "code": "ECP",
+    "logo": "http://superliga.cbv.com.br/img/equipes/fem_18.png"
+  },
+  {
+    "id": 5,
+    "name": "CAMPONESA/MINAS",
+    "code": "CMT",
+    "logo": "http://superliga.cbv.com.br/img/equipes/fem_20.png"
+  },
+  {
+    "id": 6,
+    "name": "RIO DO SUL",
+    "code": "RDS",
+    "logo": "http://superliga.cbv.com.br/img/equipes/fem_21.png"
+  },
+  {
+    "id": 7,
+    "name": "SÃO CRISTOVÃO SAÚDE/SÃO CAETANO",
+    "code": "SCS",
+    "logo": "http://superliga.cbv.com.br/img/equipes/fem_22.png"
+  },
+  {
+    "id": 8,
+    "name": "REXONA-SESC",
+    "code": "REX",
+    "logo": "http://superliga.cbv.com.br/img/equipes/fem_24.png"
+  },
+  {
+    "id": 9,
+    "name": "VÔLEI NESTLÉ",
+    "code": "VON",
+    "logo": "http://superliga.cbv.com.br/img/equipes/fem_26.png"
+  },
+  {
+    "id": 10,
+    "name": "GENTER VÔLEI BAURU",
+    "code": "AVB",
+    "logo": "http://superliga.cbv.com.br/img/equipes/fem_54.png"
+  },
+  {
+    "id": 11,
+    "name": "RENATA VALINHOS / COUNTRY",
+    "code": "RVC",
+    "logo": "http://superliga.cbv.com.br/img/equipes/fem_55.png"
+  },
+  {
+    "id": 12,
+    "name": "FLUMINENSE F. C.",
+    "code": "FFC",
+    "logo": "http://superliga.cbv.com.br/img/equipes/fem_56.png"
+  }
+]

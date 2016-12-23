@@ -2,10 +2,11 @@ var cheerio = require('cheerio');
 var express = require('express');
 var request = require('request');
 var moment = require('moment');
+var fs = require('fs');
 
 var app = express();
 
-var getSchedule = function(url) {
+var getFixtures = function(url) {
     return new Promise(function(resolve, reject) {
         request(url, function(error, response, html) {
             if (error) {
@@ -14,12 +15,12 @@ var getSchedule = function(url) {
 
             console.log(`Successfully accessed ${url}`);
 
-            var games = [];
+            var fixtures = [];
             var $ = cheerio.load(html);
 
             $('.titulo-rodada').each(function(i, elem) {
                 var round = i + 1;
-                $(this).nextUntil('.titulo-rodada').each(function(i, elem) {
+                $(this).nextUntil('.titulo-rodada').filter('.jogos-da-rodada').each(function(i, elem) {
                     var rawDate = $(this).find('.data').last().html().split('<br>')[0];
                     var date = moment(rawDate, 'DD/MM/YYYY | HH:mm').format('YYYY-MM-DD HH:mm');
                     var img = $(this).find('.data').last().children('img');
@@ -41,7 +42,7 @@ var getSchedule = function(url) {
                         };
                     }
 
-                    games.push({
+                    fixtures.push({
                         id: (round - 1) * 6 + i + 1,
                         round: round,
                         date: date,
@@ -54,7 +55,18 @@ var getSchedule = function(url) {
             });
 
             console.log('Finished scraping schedule');
-            resolve(games);
+
+            if (fixtures.length === 0) {
+              reject('No fixtures found. I problem may have occurred.');
+            }
+
+            var gender = url.indexOf('Feminino') > 0 ? 'women' : 'men';
+            fs.writeFile(`data/fixtures-${gender}.json`, JSON.stringify(fixtures, null, 2), function(err) {
+                if (err) return console.log(err);
+                console.log(`fixtures > data/fixtures-${gender}.json`);
+            });
+
+            resolve(fixtures);
         });
     });
 }
@@ -73,7 +85,8 @@ var getTeams = function(url) {
 
             $('.processo').children('a').each(function(i, elem) {
                 var name = $(this).attr('title').trim();
-                var code = $(this).attr('href').substr(-3);
+                var teamUrl = $(this).attr('href');
+                var code = teamUrl.replace(teamUrl.substr(-7), '').substr(-3);
 
                 var regex = /.*background: url\('(.*)'\).*/g
                 var logo = regex.exec($(this).attr('style'))[1].slice(0, -9);
@@ -87,13 +100,24 @@ var getTeams = function(url) {
             });
 
             console.log('Finished scraping teams');
+
+            if (teams.length === 0) {
+              reject('No teams found. I problem may have occurred.');
+            }
+
+            var gender = url.indexOf('equipes-fem') > 0 ? 'women' : 'men';
+            fs.writeFile(`data/teams-${gender}.json`, JSON.stringify(teams, null, 2), function(err) {
+                if (err) return console.log(err);
+                console.log(`teams > data/teams-${gender}.json`);
+            });
+
             resolve(teams);
         });
     });
 }
 
-app.get('/men/fixtures', function(req, res) {
-    getSchedule("http://superliga.cbv.com.br/tabela-jogos/Masculino")
+app.put('/v1/men/fixtures', function(req, res) {
+    getFixtures("http://superliga.cbv.com.br/tabela-jogos/Masculino")
         .then(function(schedule) {
             res.send(schedule);
         }).catch(function(error) {
@@ -101,7 +125,7 @@ app.get('/men/fixtures', function(req, res) {
         });
 });
 
-app.get('/men/teams', function(req, res) {
+app.put('/v1/men/teams', function(req, res) {
     getTeams("http://superliga.cbv.com.br/equipes-masc")
         .then(function(teams) {
             res.send(teams);
@@ -110,8 +134,8 @@ app.get('/men/teams', function(req, res) {
         });
 });
 
-app.get('/women/fixtures', function(req, res) {
-    getSchedule("http://superliga.cbv.com.br/tabela-jogos/Feminino")
+app.put('/v1/women/fixtures', function(req, res) {
+    getFixtures("http://superliga.cbv.com.br/tabela-jogos/Feminino")
         .then(function(schedule) {
             res.send(schedule);
         }).catch(function(error) {
@@ -119,13 +143,35 @@ app.get('/women/fixtures', function(req, res) {
         });
 });
 
-app.get('/women/teams', function(req, res) {
+app.put('/v1/women/teams', function(req, res) {
     getTeams("http://superliga.cbv.com.br/equipes-fem")
         .then(function(teams) {
             res.send(teams);
         }).catch(function(error) {
             res.sendError(error);
         });
+});
+
+app.get('/v1/:gender/fixtures', function(req, res) {
+    var gender = req.params.gender;
+    var team = req.query.team;
+
+    var fixtures = JSON.parse(fs.readFileSync(`data/fixtures-${gender}.json`, 'utf8'));
+
+    if (team) {
+        fixtures = fixtures.filter(function(fixture) {
+            return fixture.home.indexOf(team) > 0 || fixture.away.indexOf(team) > 0;
+        });
+    }
+
+    res.send(fixtures);
+});
+
+app.get('/v1/:gender/teams', function(req, res) {
+    var gender = req.params.gender;
+    var teams = JSON.parse(fs.readFileSync(`data/teams-${gender}.json`, 'utf8'));
+
+    res.send(teams);
 });
 
 app.listen(process.env.PORT || 3000, function() {

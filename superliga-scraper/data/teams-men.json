@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "SADA CRUZEIRO VÔLEI",
+    "code": "SDC",
+    "logo": "http://superliga.cbv.com.br/img/equipes/masc_3.png"
+  },
+  {
+    "id": 2,
+    "name": "SÃO BERNARDO VÔLEI",
+    "code": "SBV",
+    "logo": "http://superliga.cbv.com.br/img/equipes/masc_4.png"
+  },
+  {
+    "id": 3,
+    "name": "VÔLEI BRASIL KIRIN",
+    "code": "BRK",
+    "logo": "http://superliga.cbv.com.br/img/equipes/masc_5.png"
+  },
+  {
+    "id": 4,
+    "name": "LEBES GEDORE CANOAS",
+    "code": "CAN",
+    "logo": "http://superliga.cbv.com.br/img/equipes/masc_6.png"
+  },
+  {
+    "id": 5,
+    "name": "MONTES CLAROS VÔLEI",
+    "code": "MOC",
+    "logo": "http://superliga.cbv.com.br/img/equipes/masc_8.png"
+  },
+  {
+    "id": 6,
+    "name": "SESI-SP",
+    "code": "SES",
+    "logo": "http://superliga.cbv.com.br/img/equipes/masc_10.png"
+  },
+  {
+    "id": 7,
+    "name": "FUNVIC TAUBATÉ",
+    "code": "TAU",
+    "logo": "http://superliga.cbv.com.br/img/equipes/masc_11.png"
+  },
+  {
+    "id": 8,
+    "name": "JF VÔLEI",
+    "code": "JFV",
+    "logo": "http://superliga.cbv.com.br/img/equipes/masc_12.png"
+  },
+  {
+    "id": 9,
+    "name": "MINAS TÊNIS CLUBE",
+    "code": "MTC",
+    "logo": "http://superliga.cbv.com.br/img/equipes/masc_13.png"
+  },
+  {
+    "id": 10,
+    "name": "BENTO VÔLEI ISABELA",
+    "code": "BTV",
+    "logo": "http://superliga.cbv.com.br/img/equipes/masc_57.png"
+  },
+  {
+    "id": 11,
+    "name": "COPEL TELECOM MARINGÁ VÔLEI",
+    "code": "CMV",
+    "logo": "http://superliga.cbv.com.br/img/equipes/masc_58.png"
+  },
+  {
+    "id": 12,
+    "name": "CARAMURU VÔLEI / CASTRO",
+    "code": "CAR",
+    "logo": "http://superliga.cbv.com.br/img/equipes/masc_59.png"
+  }
+]
