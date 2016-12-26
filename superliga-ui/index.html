@@ -143,14 +143,14 @@
                 }
             };
 
-            // var request = gapi.client.calendar.events.insert({
-            //     'calendarId': 'primary',
-            //     'resource': event
-            // });
+            var request = gapi.client.calendar.events.insert({
+                'calendarId': 'primary',
+                'resource': event
+            });
 
-            // request.execute(function(event) {
-            //     appendPre('Event created: ' + event.htmlLink);
-            // });
+            request.execute(function(event) {
+                appendPre('Event created: ' + event.htmlLink);
+            });
         }
 
         /**
@@ -184,7 +184,7 @@
                 <div class="one-half column">
                     <h4 class="hero-heading">Não perca mais nenhum jogo do seu time preferido na Superliga 2016/2017.</h4>
                     <p>
-                        <div id="authorize-div" style="display: none">
+                        <div id="authorize-div">
                             <span>Authorize access to Google Calendar API</span>
                             <!--Button for the user to click to initiate auth sequence -->
                             <button id="authorize-button" onclick="handleAuthClick(event)">
