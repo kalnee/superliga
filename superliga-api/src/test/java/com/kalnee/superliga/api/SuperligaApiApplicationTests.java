@@ -1,4 +1,4 @@
-package com.kalnee;
+package com.kalnee.superliga.api;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
