@@ -1,7 +1,24 @@
 /* Shared
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.button {
-  border-radius: 100px;
+
+.teams img {
+  background-color: #fff;
+  width: 120px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.teams img:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.competition-title {
+  color: #fff;
+}
+
+.button-add {
+  margin-top: 40px;
 }
 
 /* Sections
@@ -120,9 +137,9 @@
 
 /* Bigger than 1000 */
 @media (min-width: 1000px) {
-  .section {
+  /*.section {
     padding: 20rem 0 19rem;
-  }
+  }*/
   .hero {
     padding: 22rem 0;
   }

@@ -6,7 +6,7 @@
     <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="utf-8">
-    <title>Skeleton: Responsive CSS Boilerplate</title>
+    <title>Superliga Calendar 2016/2017</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -143,14 +143,14 @@
                 }
             };
 
-            var request = gapi.client.calendar.events.insert({
-                'calendarId': 'primary',
-                'resource': event
-            });
-
-            request.execute(function(event) {
-                appendPre('Event created: ' + event.htmlLink);
-            });
+            // var request = gapi.client.calendar.events.insert({
+            //     'calendarId': 'primary',
+            //     'resource': event
+            // });
+            //
+            // request.execute(function(event) {
+            //     appendPre('Event created: ' + event.htmlLink);
+            // });
         }
 
         /**
@@ -205,25 +205,55 @@
     <div class="section categories" id="teams">
         <div class="container">
             <h3 class="section-heading">Superliga 2016/2017</h3>
-            <p class="section-description">Escolha o time que deseja acompanhar. Os jogos serão adicionados ao seu Google Calendar para que você seja não perca nenhum jogo.</p>
+            <p class="section-description">Escolha o time que deseja acompanhar. Os jogos serão adicionados ao seu Google Calendar para que você não perca nenhum jogo.</p>
             <form>
-                <div class="row">
-                    <div class="one-half column">
-                        <label for="womenTeams">Superliga Feminina</label>
-                        <select class="u-full-width" id="womenTeams">
-                          <option selected="selected" value="">Escolha seu time ...</option>
-                          <option value="Option 1">PRAIA CLUBE</option>
-                        </select>
+                <div class="men">
+                  <div class="row">
+                      <div class="twelve columns">
+                          <p class="competition-title">Superliga Masculina</p>
+                      </div>
+                  </div>
+                    <div class="row teams">
+                        <div class="two columns"><img src="/images/teams/men/BRK.png" /></div>
+                        <div class="two columns"><img src="/images/teams/men/BTV.png" /></div>
+                        <div class="two columns"><img src="/images/teams/men/CAN.png" /></div>
+                        <div class="two columns"><img src="/images/teams/men/CAR.png" /></div>
+                        <div class="two columns"><img src="/images/teams/men/CMV.png" /></div>
+                        <div class="two columns"><img src="/images/teams/men/JFV.png" /></div>
                     </div>
-                    <div class="one-half column">
-                        <label for="menTeams">Superliga Masculina</label>
-                        <select class="u-full-width" id="menTeams">
-                          <option selected="selected" value="">Escolha seu time ...</option>
-                          <option value="Option 1">SADA CRUZEIRO</option>
-                        </select>
+                    <div class="row teams">
+                        <div class="two columns"><img src="/images/teams/men/MOC.png" /></div>
+                        <div class="two columns"><img src="/images/teams/men/MTC.png" /></div>
+                        <div class="two columns"><img src="/images/teams/men/SBV.png" /></div>
+                        <div class="two columns"><img src="/images/teams/men/SDC.png" /></div>
+                        <div class="two columns"><img src="/images/teams/men/SES.png" /></div>
+                        <div class="two columns"><img src="/images/teams/men/TAU.png" /></div>
                     </div>
-                    <a class="button button-primary" style="margin-top:40px" href="http://getskeleton.com">Adicionar</a>
                 </div>
+                <div class="women" style="display: none">
+                  <div class="row">
+                      <div class="twelve columns">
+                          <p class="competition-title">Superliga Feminina</p>
+                      </div>
+                    </div>
+                    <div class="row teams">
+                        <div class="two columns"><img src="/images/teams/women/AVB.png" /></div>
+                        <div class="two columns"><img src="/images/teams/women/BSB.png" /></div>
+                        <div class="two columns"><img src="/images/teams/women/CMT.png" /></div>
+                        <div class="two columns"><img src="/images/teams/women/DPC.png" /></div>
+                        <div class="two columns"><img src="/images/teams/women/ECP.png" /></div>
+                        <div class="two columns"><img src="/images/teams/women/FFC.png" /></div>
+                    </div>
+                    <div class="row teams">
+                        <div class="two columns"><img src="/images/teams/women/RDS.png" /></div>
+                        <div class="two columns"><img src="/images/teams/women/REX.png" /></div>
+                        <div class="two columns"><img src="/images/teams/women/RVC.png" /></div>
+                        <div class="two columns"><img src="/images/teams/women/SCS.png" /></div>
+                        <div class="two columns"><img src="/images/teams/women/SES.png" /></div>
+                        <div class="two columns"><img src="/images/teams/women/VON.png" /></div>
+                    </div>
+                </div>
+                <input class="button button-primary button-add" disabled type="submit" value="Adicionar">
             </form>
         </div>
     </div>
@@ -232,9 +262,12 @@
         <div class="container">
             <h3 class="section-heading">Sugestōes ou críticas?</h3>
             <p class="section-description">Superliga Calendar não tem nenhum vínculo com a CBV (Confederação Brasileira de Voleibol) responsável pela Superliga.</p>
-            <a class="button button-primary" href="http://getskeleton.com">Contate-nos</a>
+            <a class="button button-primary" href="https://github.com/kalnee/superliga" target="_blank">
+              Contate-nos
+            </a>
         </div>
     </div>
+    <footer>
 
     <!-- <div class="section values">
         <div class="container">
