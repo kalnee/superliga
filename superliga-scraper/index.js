@@ -6,7 +6,7 @@ var fs = require('fs');
 
 var app = express();
 
-const DATE_FORMAT = 'YYYY-MM-DD HH:mm';
+const DATE_FORMAT = 'DD/MM/YYYY | HH:mm';
 
 var getFixtures = function(url) {
     return new Promise(function(resolve, reject) {
@@ -24,7 +24,7 @@ var getFixtures = function(url) {
                 var round = i + 1;
                 $(this).nextUntil('.titulo-rodada').filter('.jogos-da-rodada').each(function(i, elem) {
                     var rawDate = $(this).find('.data').last().html().split('<br>')[0];
-                    var date = moment(rawDate, 'DD/MM/YYYY | HH:mm').format(DATE_FORMAT);
+                    var date = moment(rawDate, DATE_FORMAT);
                     var img = $(this).find('.data').last().children('img');
                     var tv = null;
                     if (img.length > 0) {

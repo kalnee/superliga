@@ -26,7 +26,8 @@
 
     <!-- Scripts
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/moment/moment.js"></script>
     <script type="text/javascript">
         // Your Client ID can be retrieved from your project in the Google
         // Developer Console, https://console.developers.google.com
@@ -51,15 +52,17 @@
          * @param {Object} authResult Authorization result.
          */
         function handleAuthResult(authResult) {
-            var authorizeDiv = document.getElementById('authorize-div');
+            var authorizeDiv = document.getElementById('not-authorized');
+            var addButton = document.getElementById('add');
             if (authResult && !authResult.error) {
                 // Hide auth UI, then load client library.
                 authorizeDiv.style.display = 'none';
-                loadCalendarApi();
+                addButton.style.display = 'inline';
             } else {
                 // Show auth UI, allowing the user to initiate authorization by
                 // clicking authorize button.
                 authorizeDiv.style.display = 'inline';
+                addButton.style.display = 'none';
             }
         }
 
@@ -83,7 +86,7 @@
          * once client library is loaded.
          */
         function loadCalendarApi() {
-            gapi.client.load('calendar', 'v3', listUpcomingEvents);
+            gapi.client.load('calendar', 'v3', registerEvents);
         }
 
         /**
@@ -91,66 +94,75 @@
          * the authorized user's calendar. If no events are found an
          * appropriate message is printed.
          */
-        function listUpcomingEvents() {
-            // var request = gapi.client.calendar.events.list({
-            //   'calendarId': 'primary',
-            //   'timeMin': (new Date()).toISOString(),
-            //   'showDeleted': false,
-            //   'singleEvents': true,
-            //   'maxResults': 10,
-            //   'orderBy': 'startTime'
-            // });
+        function registerEvents() {
+            var competition = localStorage.getItem('superliga-competition');
+            var team = localStorage.getItem('superliga-team');
 
-            // request.execute(function(resp) {
-            //   var events = resp.items;
-            //   appendPre('Upcoming events:');
-            //
-            //   if (events.length > 0) {
-            //     for (i = 0; i < events.length; i++) {
-            //       var event = events[i];
-            //       var when = event.start.dateTime;
-            //       if (!when) {
-            //         when = event.start.date;
-            //       }
-            //       appendPre(event.summary + ' (' + when + ')')
-            //     }
-            //   } else {
-            //     appendPre('No upcoming events found.');
-            //   }
-            //
-            // });
-            var event = {
-                'summary': '🏐 Sada Cruzeiro x SESI-SP',
-                'location': 'Watch on SportTV',
-                'description': 'Superliga Masculina 2016/2017',
-                'start': {
-                    'dateTime': '2016-12-24T09:00:00-07:00',
-                    'timeZone': 'America/Sao_Paulo'
-                },
-                'end': {
-                    'dateTime': '2016-12-24T12:00:00-07:00',
-                    'timeZone': 'America/Sao_Paulo'
-                },
-                'reminders': {
-                    'useDefault': false,
-                    'overrides': [{
-                        'method': 'email',
-                        'minutes': 10
-                    }, {
-                        'method': 'popup',
-                        'minutes': 10
-                    }]
+            $.get('./data/fixtures-' + competition + '.json', function(data) {
+                var fixtures = data.filter(function(fixture) {
+                    return fixture.home === team || fixture.away === team;
+                });
+                fixtures = fixtures.filter(function(fixture) {
+                    return moment(fixture.date).utcOffset(120).isAfter(moment());
+                });
+
+                var events = [];
+
+                for (var i = 0, len = fixtures.length; i < len; i++) {
+                    var summary = '🏐 ' + fixtures[i].home + ' x ' + fixtures[i].away;
+                    var location = fixtures[i].tv ? 'Watch on ' + fixtures[i].tv : '';
+                    var gender = (competition === 'men') ? 'Masculina' : 'Feminina';
+                    var end = moment(fixtures[i].date).add(2, 'hours').toISOString();
+
+                    var event = {
+                        'summary': summary,
+                        'location': location,
+                        'description': 'Superliga ' + gender + ' 2016/2017',
+                        'start': {
+                            'dateTime': fixtures[i].date,
+                            'timeZone': 'America/Sao_Paulo'
+                        },
+                        'end': {
+                            'dateTime': end,
+                            'timeZone': 'America/Sao_Paulo'
+                        },
+                        'reminders': {
+                            'useDefault': false,
+                            'overrides': [{
+                                'method': 'email',
+                                'minutes': 10
+                            }, {
+                                'method': 'popup',
+                                'minutes': 10
+                            }]
+                        }
+                    };
+
+                    events.push(gapi.client.calendar.events.insert({
+                        'calendarId': 'primary',
+                        'resource': event
+                    }));
                 }
-            };
 
-            // var request = gapi.client.calendar.events.insert({
-            //     'calendarId': 'primary',
-            //     'resource': event
-            // });
-            //
-            // request.execute(function(event) {
-            //     appendPre('Event created: ' + event.htmlLink);
-            // });
+                function sendRequest(event, index) {
+                    setTimeout(function() {
+                        event.execute(function(e, error) {
+                            var errorMessage = JSON.parse(error);
+                            if (errorMessage && errorMessage[0].error) {
+                                console.log(errorMessage);
+                            }
+                        });
+                    }, index * 200);
+                }
+
+                for (var i = 0, len = events.length; i < len; i++) {
+                    sendRequest(events[i], i);
+                }
+
+                success();
+            }).fail(function() {
+                console.log('Failed to get the fixtures for team: ' + team);
+            });
         }
 
         /**
@@ -159,18 +171,51 @@
          *
          * @param {string} message Text to be placed in pre element.
          */
-        function appendPre(message) {
-            var pre = document.getElementById('output');
-            var textContent = document.createTextNode(message + '\n');
-            pre.appendChild(textContent);
+        function success() {
+            $('#output').fadeIn('slow', function() {
+              $('#output').fadeOut(3000);
+            });
         }
     </script>
     <script src="https://apis.google.com/js/client.js?onload=checkAuth"></script>
+    <script type="text/javascript">
+        $('document').ready(function() {
+            $('.men').hide();
+            $('#add').hide();
+            localStorage.removeItem('superliga-competition');
+            localStorage.removeItem('superliga-team');
+
+            $('input:radio[name=selected-competition]').click(function() {
+                $('.men').hide();
+                $('.women').hide();
+                $('#selected-team').val('');
+                $('#team-name').text('');
+                $('.' + this.value).show();
+            });
+
+            $('.team').click(function() {
+                //var teamCode = $(this).attr('data-team');
+                var teamName = $(this).attr('title');
+                $('#selected-team').val(teamName);
+                $('#team-name').text(teamName);
+                $('#add').removeAttr('disabled');
+            });
+
+            $('#add').click(function() {
+                var competition = $('input:radio[name=selected-competition]:checked').val();
+                var team = $('#selected-team').val();
+                console.log(competition + ' ' + team);
+                localStorage.setItem('superliga-competition', competition);
+                localStorage.setItem('superliga-team', team);
+
+                loadCalendarApi();
+            });
+        });
+    </script>
 
     <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="icon" type="image/png" href="node_modules/skeleton-css/images/favicon.png">
-
 </head>
 
 <body>
@@ -183,78 +228,72 @@
             <div class="row">
                 <div class="one-half column">
                     <h4 class="hero-heading">Não perca mais nenhum jogo do seu time preferido na Superliga 2016/2017.</h4>
-                    <p>
-                        <div id="authorize-div">
-                            <span>Authorize access to Google Calendar API</span>
-                            <!--Button for the user to click to initiate auth sequence -->
-                            <button id="authorize-button" onclick="handleAuthClick(event)">
-                              Authorize
-                            </button>
-                        </div>
-                        <pre id="output"></pre>
-                    </p>
                     <a class="button button-primary" href="#teams">Escolha seu time</a>
                 </div>
                 <div class="one-half column">
-                    <img class="phone" src="images/player.jpg">
+                    <img class="player" src="images/player.jpg">
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="section categories" id="teams">
+    <div class="section categories">
         <div class="container">
-            <h3 class="section-heading">Superliga 2016/2017</h3>
+            <h3 class="section-heading" id="teams">Superliga 2016/2017</h3>
             <p class="section-description">Escolha o time que deseja acompanhar. Os jogos serão adicionados ao seu Google Calendar para que você não perca nenhum jogo.</p>
-            <form>
-                <div class="men">
-                  <div class="row">
-                      <div class="twelve columns">
-                          <p class="competition-title">Superliga Masculina</p>
-                      </div>
-                  </div>
-                    <div class="row teams">
-                        <div class="two columns"><img src="/images/teams/men/BRK.png" /></div>
-                        <div class="two columns"><img src="/images/teams/men/BTV.png" /></div>
-                        <div class="two columns"><img src="/images/teams/men/CAN.png" /></div>
-                        <div class="two columns"><img src="/images/teams/men/CAR.png" /></div>
-                        <div class="two columns"><img src="/images/teams/men/CMV.png" /></div>
-                        <div class="two columns"><img src="/images/teams/men/JFV.png" /></div>
-                    </div>
-                    <div class="row teams">
-                        <div class="two columns"><img src="/images/teams/men/MOC.png" /></div>
-                        <div class="two columns"><img src="/images/teams/men/MTC.png" /></div>
-                        <div class="two columns"><img src="/images/teams/men/SBV.png" /></div>
-                        <div class="two columns"><img src="/images/teams/men/SDC.png" /></div>
-                        <div class="two columns"><img src="/images/teams/men/SES.png" /></div>
-                        <div class="two columns"><img src="/images/teams/men/TAU.png" /></div>
-                    </div>
+            <div class="row">
+                <div class="twelve columns title">
+                    <input type="radio" name="selected-competition" value="women" checked="checked" /> Superliga Feminina
+                    <input type="radio" name="selected-competition" value="men" class="margin-left-sm" /> Superliga Masculina
                 </div>
-                <div class="women" style="display: none">
-                  <div class="row">
-                      <div class="twelve columns">
-                          <p class="competition-title">Superliga Feminina</p>
-                      </div>
-                    </div>
-                    <div class="row teams">
-                        <div class="two columns"><img src="/images/teams/women/AVB.png" /></div>
-                        <div class="two columns"><img src="/images/teams/women/BSB.png" /></div>
-                        <div class="two columns"><img src="/images/teams/women/CMT.png" /></div>
-                        <div class="two columns"><img src="/images/teams/women/DPC.png" /></div>
-                        <div class="two columns"><img src="/images/teams/women/ECP.png" /></div>
-                        <div class="two columns"><img src="/images/teams/women/FFC.png" /></div>
-                    </div>
-                    <div class="row teams">
-                        <div class="two columns"><img src="/images/teams/women/RDS.png" /></div>
-                        <div class="two columns"><img src="/images/teams/women/REX.png" /></div>
-                        <div class="two columns"><img src="/images/teams/women/RVC.png" /></div>
-                        <div class="two columns"><img src="/images/teams/women/SCS.png" /></div>
-                        <div class="two columns"><img src="/images/teams/women/SES.png" /></div>
-                        <div class="two columns"><img src="/images/teams/women/VON.png" /></div>
-                    </div>
+            </div>
+            <div class="women margin-top-sm">
+                <div class="row teams">
+                    <div class="two columns"><img class="team" src="/images/teams/women/AVB.png" title="GENTER VÔLEI BAURU" data-team="AVB" /></div>
+                    <div class="two columns"><img class="team" src="/images/teams/women/BSB.png" title="TERRACAP/BRB/BRASÍLIA VÔLEI" data-team="BSB" /></div>
+                    <div class="two columns"><img class="team" src="/images/teams/women/CMT.png" title="CAMPONESA/MINAS" data-team="CMT" /></div>
+                    <div class="two columns"><img class="team" src="/images/teams/women/DPC.png" title="DENTIL/PRAIA CLUBE" data-team="DPC" /></div>
+                    <div class="two columns"><img class="team" src="/images/teams/women/ECP.png" title="E.C.PINHEIROS" data-team="ECP" /></div>
+                    <div class="two columns"><img class="team" src="/images/teams/women/FFC.png" title="FLUMINENSE F. C." data-team="FFC" /></div>
                 </div>
-                <input class="button button-primary button-add" disabled type="submit" value="Adicionar">
-            </form>
+                <div class="row teams">
+                    <div class="two columns"><img class="team" src="/images/teams/women/RDS.png" title="RIO DO SUL" data-team="RDS" /></div>
+                    <div class="two columns"><img class="team" src="/images/teams/women/REX.png" title="REXONA-SESC" data-team="REX" /></div>
+                    <div class="two columns"><img class="team" src="/images/teams/women/RVC.png" title="RENATA VALINHOS / COUNTRY" data-team="RVC" /></div>
+                    <div class="two columns"><img class="team" src="/images/teams/women/SCS.png" title="SÃO CRISTOVÃO SAÚDE/SÃO CAETANO" data-team="SCS" /></div>
+                    <div class="two columns"><img class="team" src="/images/teams/women/SES.png" title="SESI-SP" data-team="SES" /></div>
+                    <div class="two columns"><img class="team" src="/images/teams/women/VON.png" title="VÔLEI NESTLÉ" data-team="VON" /></div>
+                </div>
+            </div>
+            <div class="men margin-top-sm">
+                <div class="row teams">
+                    <div class="two columns"><img class="team" src="/images/teams/men/BRK.png" title="VÔLEI BRASIL KIRIN" data-team="BRK" /></div>
+                    <div class="two columns"><img class="team" src="/images/teams/men/BTV.png" title="BENTO VÔLEI ISABELA" data-team="BTV" /></div>
+                    <div class="two columns"><img class="team" src="/images/teams/men/CAN.png" title="LEBES GEDORE CANOAS" data-team="CAN" /></div>
+                    <div class="two columns"><img class="team" src="/images/teams/men/CAR.png" title="CARAMURU VÔLEI / CASTRO" data-team="CAR" /></div>
+                    <div class="two columns"><img class="team" src="/images/teams/men/CMV.png" title="COPEL TELECOM MARINGÁ VÔLEI" data-team="CMV" /></div>
+                    <div class="two columns"><img class="team" src="/images/teams/men/JFV.png" title="JF VÔLEI" data-team="JFV" /></div>
+                </div>
+                <div class="row teams">
+                    <div class="two columns"><img class="team" src="/images/teams/men/MOC.png" title="MONTES CLAROS VÔLEI" data-team="MOC" /></div>
+                    <div class="two columns"><img class="team" src="/images/teams/men/MTC.png" title="MINAS TÊNIS CLUBE" data-team="MTC" /></div>
+                    <div class="two columns"><img class="team" src="/images/teams/men/SBV.png" title="SÃO BERNARDO VÔLEI" data-team="SBV" /></div>
+                    <div class="two columns"><img class="team" src="/images/teams/men/SDC.png" title="SADA CRUZEIRO VÔLEI" data-team="SDC" /></div>
+                    <div class="two columns"><img class="team" src="/images/teams/men/SES.png" title="SESI-SP" data-team="SES" /></div>
+                    <div class="two columns"><img class="team" src="/images/teams/men/TAU.png" title="FUNVIC TAUBATÉ" data-team="TAU" /></div>
+                </div>
+            </div>
+            <div class="row margin-top-sm">
+                <div class="twelve columns">
+                    <p id="team-name" class="title"></p>
+                    <input type="text" id="selected-team" class="hidden" />
+                </div>
+            </div>
+            <input class="button button-primary" id="add" disabled="disabled" type="button" value="Adicionar">
+            <div id="not-authorized">
+                <input type="button" id="authorize" class="button button-default" value="Autorizar" onclick="handleAuthClick(event)">
+            </div>
+            <p id="output" class="title margin-top-sm hidden">Eventos criados com sucesso!</p>
         </div>
     </div>
 
@@ -267,31 +306,8 @@
             </a>
         </div>
     </div>
-    <footer>
 
-    <!-- <div class="section values">
-        <div class="container">
-            <div class="row">
-                <div class="one-third column value">
-                    <h2 class="value-multiplier">67%</h2>
-                    <h5 class="value-heading">Purchase Increase</h5>
-                    <p class="value-description">Percentage of users more likely to purchase on mobile friendly site.</p>
-                </div>
-                <div class="one-third column value">
-                    <h2 class="value-multiplier">90%</h2>
-                    <h5 class="value-heading">Multi-device Users</h5>
-                    <p class="value-description">Most of the world accesses the internet on multiple devices.</p>
-                </div>
-                <div class="one-third column value">
-                    <h2 class="value-multiplier">66%</h2>
-                    <h5 class="value-heading">Sad Users</h5>
-                    <p class="value-description">Percentage of users that are frustrated with page load times.</p>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-    <!-- End Document
+        <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 
