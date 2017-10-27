@@ -2,1595 +2,1024 @@
   {
     "id": 1,
     "round": 1,
-    "date": "2016-10-26T22:00:00.000Z",
-    "tv": null,
-    "home": "JF VÔLEI",
-    "away": "VÔLEI BRASIL KIRIN",
-    "result": {
-      "homeSets": "1",
-      "awaySets": "3",
-      "partials": [
-        "25-23",
-        "17-25",
-        "21-25",
-        "17-25"
-      ]
-    }
+    "date": "2017-10-14T17:05:00.000Z",
+    "tv": "SportTV",
+    "home": "SESC-RJ",
+    "away": "EMS TAUBATÉ FUNVIC",
+    "result": null
   },
   {
     "id": 2,
     "round": 1,
-    "date": "2016-10-27T23:30:00.000Z",
+    "date": "2017-10-14T21:00:00.000Z",
     "tv": null,
-    "home": "COPEL TELECOM MARINGÁ VÔLEI",
-    "away": "SESI-SP",
-    "result": {
-      "homeSets": "0",
-      "awaySets": "3",
-      "partials": [
-        "18-25",
-        "16-25",
-        "20-25"
-      ]
-    }
+    "home": "LEBES CANOAS",
+    "away": "MONTES CLAROS VÔLEI",
+    "result": null
   },
   {
     "id": 3,
     "round": 1,
-    "date": "2016-10-29T16:00:00.000Z",
+    "date": "2017-10-14T21:00:00.000Z",
     "tv": null,
-    "home": "MINAS TÊNIS CLUBE",
-    "away": "BENTO VÔLEI ISABELA",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "1",
-      "partials": [
-        "23-25",
-        "25-18",
-        "25-18",
-        "25-23"
-      ]
-    }
+    "home": "JF VÔLEI",
+    "away": "MINAS TÊNIS CLUBE",
+    "result": null
   },
   {
     "id": 4,
     "round": 1,
-    "date": "2016-10-29T20:00:00.000Z",
+    "date": "2017-10-14T21:30:00.000Z",
     "tv": null,
-    "home": "MONTES CLAROS VÔLEI",
-    "away": "LEBES GEDORE CANOAS",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "1",
-      "partials": [
-        "25-21",
-        "22-25",
-        "25-20",
-        "25-23"
-      ]
-    }
+    "home": "COPEL TELECOM MARINGÁ VÔLEI",
+    "away": "SESI-SP",
+    "result": null
   },
   {
     "id": 5,
     "round": 1,
-    "date": "2016-10-29T22:00:00.000Z",
+    "date": "2017-10-14T23:00:00.000Z",
     "tv": null,
-    "home": " CARAMURU VÔLEI / CASTRO",
-    "away": "FUNVIC TAUBATÉ",
-    "result": {
-      "homeSets": "0",
-      "awaySets": "3",
-      "partials": [
-        "20-25",
-        "21-25",
-        "22-25"
-      ]
-    }
+    "home": "PONTA GROSSA CARAMURU",
+    "away": "VÔLEI RENATA",
+    "result": null
   },
   {
     "id": 6,
     "round": 1,
-    "date": "2016-11-17T23:55:00.000Z",
-    "tv": null,
-    "home": "SÃO BERNARDO VÔLEI",
+    "date": "2017-10-14T23:00:00.000Z",
+    "tv": "SportTV",
+    "home": "CORINTHIANS-GUARULHOS",
     "away": "SADA CRUZEIRO VÔLEI",
-    "result": {
-      "homeSets": "0",
-      "awaySets": "3",
-      "partials": [
-        "17-25",
-        "29-31",
-        "18-25"
-      ]
-    }
+    "result": null
   },
   {
     "id": 7,
     "round": 2,
-    "date": "2016-11-03T23:00:00.000Z",
-    "tv": null,
-    "home": "SESI-SP",
-    "away": "LEBES GEDORE CANOAS",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "25-17",
-        "25-21",
-        "26-24"
-      ]
-    }
+    "date": "2017-10-21T13:00:00.000Z",
+    "tv": "SportTV",
+    "home": "MONTES CLAROS VÔLEI",
+    "away": "JF VÔLEI",
+    "result": null
   },
   {
     "id": 8,
     "round": 2,
-    "date": "2016-11-05T16:10:00.000Z",
+    "date": "2017-10-21T20:00:00.000Z",
     "tv": null,
-    "home": "JF VÔLEI",
-    "away": "SADA CRUZEIRO VÔLEI",
-    "result": {
-      "homeSets": "0",
-      "awaySets": "3",
-      "partials": [
-        "23-25",
-        "23-25",
-        "17-25"
-      ]
-    }
+    "home": "PONTA GROSSA CARAMURU",
+    "away": "SESI-SP",
+    "result": null
   },
   {
     "id": 9,
     "round": 2,
-    "date": "2016-11-05T20:00:00.000Z",
+    "date": "2017-10-21T20:30:00.000Z",
     "tv": null,
-    "home": "MONTES CLAROS VÔLEI",
-    "away": "MINAS TÊNIS CLUBE",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "1",
-      "partials": [
-        "22-25",
-        "25-23",
-        "25-22",
-        "25-20"
-      ]
-    }
+    "home": "EMS TAUBATÉ FUNVIC",
+    "away": "COPEL TELECOM MARINGÁ VÔLEI",
+    "result": null
   },
   {
     "id": 10,
     "round": 2,
-    "date": "2016-11-05T20:00:00.000Z",
+    "date": "2017-10-21T21:00:00.000Z",
     "tv": null,
-    "home": "VÔLEI BRASIL KIRIN",
-    "away": " CARAMURU VÔLEI / CASTRO",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "25-18",
-        "26-24",
-        "25-18"
-      ]
-    }
+    "home": "SADA CRUZEIRO VÔLEI",
+    "away": "SESC-RJ",
+    "result": null
   },
   {
     "id": 11,
     "round": 2,
-    "date": "2016-11-05T22:00:00.000Z",
-    "tv": null,
-    "home": "BENTO VÔLEI ISABELA",
-    "away": "SÃO BERNARDO VÔLEI",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "1",
-      "partials": [
-        "25-18",
-        "25-19",
-        "21-25",
-        "25-20"
-      ]
-    }
+    "date": "2017-10-21T23:30:00.000Z",
+    "tv": "SportTV",
+    "home": "VÔLEI RENATA",
+    "away": "LEBES CANOAS",
+    "result": null
   },
   {
     "id": 12,
     "round": 2,
-    "date": "2016-11-05T23:30:00.000Z",
-    "tv": null,
-    "home": "FUNVIC TAUBATÉ",
-    "away": "COPEL TELECOM MARINGÁ VÔLEI",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "1",
-      "partials": [
-        "22-25",
-        "25-21",
-        "25-20",
-        "25-22"
-      ]
-    }
+    "date": "2017-10-22T15:00:00.000Z",
+    "tv": "RedeTV",
+    "home": "CORINTHIANS-GUARULHOS",
+    "away": "MINAS TÊNIS CLUBE",
+    "result": null
   },
   {
     "id": 13,
     "round": 3,
-    "date": "2016-11-10T23:55:00.000Z",
+    "date": "2017-10-28T20:00:00.000Z",
     "tv": null,
-    "home": "LEBES GEDORE CANOAS",
-    "away": "FUNVIC TAUBATÉ",
-    "result": {
-      "homeSets": "2",
-      "awaySets": "3",
-      "partials": [
-        "25-22",
-        "23-25",
-        "25-22",
-        "17-25",
-        "10-15"
-      ]
-    }
+    "home": "PONTA GROSSA CARAMURU",
+    "away": "EMS TAUBATÉ FUNVIC",
+    "result": null
   },
   {
     "id": 14,
     "round": 3,
-    "date": "2016-11-11T21:30:00.000Z",
+    "date": "2017-10-28T20:00:00.000Z",
     "tv": null,
-    "home": "SÃO BERNARDO VÔLEI",
-    "away": "JF VÔLEI",
-    "result": {
-      "homeSets": "2",
-      "awaySets": "3",
-      "partials": [
-        "20-25",
-        "25-14",
-        "19-25",
-        "25-21",
-        "10-15"
-      ]
-    }
+    "home": "LEBES CANOAS",
+    "away": "SESI-SP",
+    "result": null
   },
   {
     "id": 15,
     "round": 3,
-    "date": "2016-11-12T20:00:00.000Z",
+    "date": "2017-10-28T20:00:00.000Z",
     "tv": null,
-    "home": "COPEL TELECOM MARINGÁ VÔLEI",
-    "away": "VÔLEI BRASIL KIRIN",
-    "result": {
-      "homeSets": "2",
-      "awaySets": "3",
-      "partials": [
-        "25-23",
-        "23-25",
-        "25-22",
-        "22-25",
-        "6-15"
-      ]
-    }
+    "home": "JF VÔLEI",
+    "away": "VÔLEI RENATA",
+    "result": null
   },
   {
     "id": 16,
     "round": 3,
-    "date": "2016-11-12T21:00:00.000Z",
+    "date": "2017-10-28T20:30:00.000Z",
     "tv": null,
-    "home": "MINAS TÊNIS CLUBE",
-    "away": "SESI-SP",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "2",
-      "partials": [
-        "23-25",
-        "20-25",
-        "25-23",
-        "25-23",
-        "16-14"
-      ]
-    }
+    "home": "COPEL TELECOM MARINGÁ VÔLEI",
+    "away": "SADA CRUZEIRO VÔLEI",
+    "result": null
   },
   {
     "id": 17,
     "round": 3,
-    "date": "2016-11-12T22:00:00.000Z",
-    "tv": null,
-    "home": "BENTO VÔLEI ISABELA",
+    "date": "2017-10-28T23:55:00.000Z",
+    "tv": "SportTV",
+    "home": "MINAS TÊNIS CLUBE",
     "away": "MONTES CLAROS VÔLEI",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "25-22",
-        "25-21",
-        "25-19"
-      ]
-    }
+    "result": null
   },
   {
     "id": 18,
     "round": 3,
-    "date": "2016-11-13T19:00:00.000Z",
-    "tv": null,
-    "home": " CARAMURU VÔLEI / CASTRO",
-    "away": "SADA CRUZEIRO VÔLEI",
-    "result": {
-      "homeSets": "0",
-      "awaySets": "3",
-      "partials": [
-        "19-25",
-        "18-25",
-        "22-25"
-      ]
-    }
+    "date": "2017-10-29T15:00:00.000Z",
+    "tv": "RedeTV",
+    "home": "SESC-RJ",
+    "away": "CORINTHIANS-GUARULHOS",
+    "result": null
   },
   {
     "id": 19,
     "round": 4,
-    "date": "2016-11-15T21:30:00.000Z",
-    "tv": null,
-    "home": "COPEL TELECOM MARINGÁ VÔLEI",
-    "away": "SADA CRUZEIRO VÔLEI",
-    "result": {
-      "homeSets": "0",
-      "awaySets": "3",
-      "partials": [
-        "21-25",
-        "22-25",
-        "23-25"
-      ]
-    }
+    "date": "2017-11-02T21:00:00.000Z",
+    "tv": "SportTV",
+    "home": "SESC-RJ",
+    "away": "COPEL TELECOM MARINGÁ VÔLEI",
+    "result": null
   },
   {
     "id": 20,
     "round": 4,
-    "date": "2016-11-19T13:00:00.000Z",
+    "date": "2017-11-03T22:00:00.000Z",
     "tv": null,
-    "home": "SÃO BERNARDO VÔLEI",
-    "away": "MONTES CLAROS VÔLEI",
-    "result": {
-      "homeSets": "0",
-      "awaySets": "3",
-      "partials": [
-        "22-25",
-        "21-25",
-        "19-25"
-      ]
-    }
+    "home": "PONTA GROSSA CARAMURU",
+    "away": "SADA CRUZEIRO VÔLEI",
+    "result": null
   },
   {
     "id": 21,
     "round": 4,
-    "date": "2016-11-19T20:00:00.000Z",
-    "tv": null,
-    "home": "VÔLEI BRASIL KIRIN",
-    "away": "LEBES GEDORE CANOAS",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "2",
-      "partials": [
-        "21-25",
-        "22-25",
-        "25-17",
-        "25-21",
-        "19-17"
-      ]
-    }
+    "date": "2017-11-04T13:00:00.000Z",
+    "tv": "SportTV",
+    "home": "CORINTHIANS-GUARULHOS",
+    "away": "MONTES CLAROS VÔLEI",
+    "result": null
   },
   {
     "id": 22,
     "round": 4,
-    "date": "2016-11-19T20:00:00.000Z",
-    "tv": null,
-    "home": "JF VÔLEI",
-    "away": " CARAMURU VÔLEI / CASTRO",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "25-19",
-        "25-16",
-        "25-18"
-      ]
-    }
+    "date": "2017-11-04T17:00:00.000Z",
+    "tv": "RedeTV",
+    "home": "VÔLEI RENATA",
+    "away": "MINAS TÊNIS CLUBE",
+    "result": null
   },
   {
     "id": 23,
     "round": 4,
-    "date": "2016-11-19T22:00:00.000Z",
-    "tv": null,
-    "home": "BENTO VÔLEI ISABELA",
-    "away": "SESI-SP",
-    "result": {
-      "homeSets": "0",
-      "awaySets": "3",
-      "partials": [
-        "13-25",
-        "19-25",
-        "22-25"
-      ]
-    }
+    "date": "2017-11-04T23:30:00.000Z",
+    "tv": "SportTV",
+    "home": "SESI-SP",
+    "away": "JF VÔLEI",
+    "result": null
   },
   {
     "id": 24,
     "round": 4,
-    "date": "2016-11-19T23:00:00.000Z",
-    "tv": null,
-    "home": "FUNVIC TAUBATÉ",
-    "away": "MINAS TÊNIS CLUBE",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "25-21",
-        "25-21",
-        "25-18"
-      ]
-    }
+    "date": "2017-11-05T15:03:00.000Z",
+    "tv": "RedeTV",
+    "home": "EMS TAUBATÉ FUNVIC",
+    "away": "LEBES CANOAS",
+    "result": null
   },
   {
     "id": 25,
     "round": 5,
-    "date": "2016-11-23T20:00:00.000Z",
-    "tv": null,
-    "home": "MONTES CLAROS VÔLEI",
-    "away": "SESI-SP",
-    "result": {
-      "homeSets": "1",
-      "awaySets": "3",
-      "partials": [
-        "23-25",
-        "25-21",
-        "24-26",
-        "20-25"
-      ]
-    }
+    "date": "2017-11-08T19:00:00.000Z",
+    "tv": "SportTV",
+    "home": "LEBES CANOAS",
+    "away": "SADA CRUZEIRO VÔLEI",
+    "result": null
   },
   {
     "id": 26,
     "round": 5,
-    "date": "2016-11-23T21:30:00.000Z",
+    "date": "2017-11-08T21:30:00.000Z",
     "tv": null,
     "home": "COPEL TELECOM MARINGÁ VÔLEI",
-    "away": "JF VÔLEI",
-    "result": {
-      "homeSets": "1",
-      "awaySets": "3",
-      "partials": [
-        "29-31",
-        "20-25",
-        "25-19",
-        "13-25"
-      ]
-    }
+    "away": "CORINTHIANS-GUARULHOS",
+    "result": null
   },
   {
     "id": 27,
     "round": 5,
-    "date": "2016-11-23T22:00:00.000Z",
+    "date": "2017-11-08T22:00:00.000Z",
     "tv": null,
-    "home": " CARAMURU VÔLEI / CASTRO",
-    "away": "SÃO BERNARDO VÔLEI",
-    "result": {
-      "homeSets": "2",
-      "awaySets": "3",
-      "partials": [
-        "25-22",
-        "19-25",
-        "26-24",
-        "15-25",
-        "12-15"
-      ]
-    }
+    "home": "EMS TAUBATÉ FUNVIC",
+    "away": "JF VÔLEI",
+    "result": null
   },
   {
     "id": 28,
     "round": 5,
-    "date": "2016-11-23T22:00:00.000Z",
+    "date": "2017-11-08T22:00:00.000Z",
     "tv": null,
-    "home": "LEBES GEDORE CANOAS",
-    "away": "SADA CRUZEIRO VÔLEI",
-    "result": {
-      "homeSets": "0",
-      "awaySets": "3",
-      "partials": [
-        "22-25",
-        "23-25",
-        "21-25"
-      ]
-    }
+    "home": "PONTA GROSSA CARAMURU",
+    "away": "SESC-RJ",
+    "result": null
   },
   {
     "id": 29,
     "round": 5,
-    "date": "2016-11-23T22:00:00.000Z",
+    "date": "2017-11-08T22:00:00.000Z",
     "tv": null,
-    "home": "BENTO VÔLEI ISABELA",
-    "away": "FUNVIC TAUBATÉ",
-    "result": {
-      "homeSets": "0",
-      "awaySets": "3",
-      "partials": [
-        "21-25",
-        "20-25",
-        "23-25"
-      ]
-    }
+    "home": "MINAS TÊNIS CLUBE",
+    "away": "SESI-SP",
+    "result": null
   },
   {
     "id": 30,
     "round": 5,
-    "date": "2016-11-24T23:55:00.000Z",
+    "date": "2017-11-08T22:30:00.000Z",
     "tv": null,
-    "home": "MINAS TÊNIS CLUBE",
-    "away": "VÔLEI BRASIL KIRIN",
-    "result": {
-      "homeSets": "1",
-      "awaySets": "3",
-      "partials": [
-        "26-28",
-        "25-21",
-        "19-25",
-        "21-25"
-      ]
-    }
+    "home": "MONTES CLAROS VÔLEI",
+    "away": "VÔLEI RENATA",
+    "result": null
   },
   {
     "id": 31,
     "round": 6,
-    "date": "2016-11-26T20:00:00.000Z",
+    "date": "2017-11-10T21:30:00.000Z",
     "tv": null,
-    "home": "SESI-SP",
-    "away": "SÃO BERNARDO VÔLEI",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "25-19",
-        "25-16",
-        "25-19"
-      ]
-    }
+    "home": "JF VÔLEI",
+    "away": "SADA CRUZEIRO VÔLEI",
+    "result": null
   },
   {
     "id": 32,
     "round": 6,
-    "date": "2016-11-26T20:00:00.000Z",
+    "date": "2017-11-11T20:00:00.000Z",
     "tv": null,
-    "home": "JF VÔLEI",
-    "away": "LEBES GEDORE CANOAS",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "2",
-      "partials": [
-        "25-20",
-        "23-25",
-        "17-25",
-        "27-25",
-        "15-12"
-      ]
-    }
+    "home": "SESC-RJ",
+    "away": "LEBES CANOAS",
+    "result": null
   },
   {
     "id": 33,
     "round": 6,
-    "date": "2016-11-26T20:00:00.000Z",
+    "date": "2017-11-11T20:30:00.000Z",
     "tv": null,
-    "home": "VÔLEI BRASIL KIRIN",
-    "away": "BENTO VÔLEI ISABELA",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "25-23",
-        "25-19",
-        "25-23"
-      ]
-    }
+    "home": "COPEL TELECOM MARINGÁ VÔLEI",
+    "away": "PONTA GROSSA CARAMURU",
+    "result": null
   },
   {
     "id": 34,
     "round": 6,
-    "date": "2016-11-26T22:00:00.000Z",
-    "tv": null,
-    "home": " CARAMURU VÔLEI / CASTRO",
-    "away": "COPEL TELECOM MARINGÁ VÔLEI",
-    "result": {
-      "homeSets": "0",
-      "awaySets": "3",
-      "partials": [
-        "19-25",
-        "21-25",
-        "24-26"
-      ]
-    }
+    "date": "2017-11-11T23:00:00.000Z",
+    "tv": "SportTV",
+    "home": "EMS TAUBATÉ FUNVIC",
+    "away": "MINAS TÊNIS CLUBE",
+    "result": null
   },
   {
     "id": 35,
     "round": 6,
-    "date": "2016-11-26T23:30:00.000Z",
-    "tv": null,
-    "home": "SADA CRUZEIRO VÔLEI",
-    "away": "MINAS TÊNIS CLUBE",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "1",
-      "partials": [
-        "25-19",
-        "25-14",
-        "19-25",
-        "25-23"
-      ]
-    }
+    "date": "2017-11-12T15:03:00.000Z",
+    "tv": "RedeTV",
+    "home": "SESI-SP",
+    "away": "MONTES CLAROS VÔLEI",
+    "result": null
   },
   {
     "id": 36,
     "round": 6,
-    "date": "2016-11-28T22:00:00.000Z",
-    "tv": null,
-    "home": "FUNVIC TAUBATÉ",
-    "away": "MONTES CLAROS VÔLEI",
-    "result": {
-      "homeSets": "1",
-      "awaySets": "3",
-      "partials": [
-        "28-30",
-        "20-25",
-        "25-23",
-        "18-25"
-      ]
-    }
+    "date": "2017-11-12T23:00:00.000Z",
+    "tv": "SportTV",
+    "home": "CORINTHIANS-GUARULHOS",
+    "away": "VÔLEI RENATA",
+    "result": null
   },
   {
     "id": 37,
     "round": 7,
-    "date": "2016-12-01T23:55:00.000Z",
+    "date": "2017-11-18T20:00:00.000Z",
     "tv": null,
-    "home": "MONTES CLAROS VÔLEI",
-    "away": "VÔLEI BRASIL KIRIN",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "1",
-      "partials": [
-        "21-25",
-        "25-17",
-        "25-18",
-        "25-22"
-      ]
-    }
+    "home": "MINAS TÊNIS CLUBE",
+    "away": "SADA CRUZEIRO VÔLEI",
+    "result": null
   },
   {
     "id": 38,
     "round": 7,
-    "date": "2016-12-02T21:00:00.000Z",
+    "date": "2017-11-18T21:00:00.000Z",
     "tv": null,
-    "home": "BENTO VÔLEI ISABELA",
-    "away": "SADA CRUZEIRO VÔLEI",
-    "result": {
-      "homeSets": "0",
-      "awaySets": "3",
-      "partials": [
-        "14-25",
-        "25-27",
-        "18-25"
-      ]
-    }
+    "home": "MONTES CLAROS VÔLEI",
+    "away": "EMS TAUBATÉ FUNVIC",
+    "result": null
   },
   {
     "id": 39,
     "round": 7,
-    "date": "2016-12-03T19:00:00.000Z",
-    "tv": null,
-    "home": "MINAS TÊNIS CLUBE",
-    "away": "JF VÔLEI",
-    "result": {
-      "homeSets": "0",
-      "awaySets": "3",
-      "partials": [
-        "24-26",
-        "25-27",
-        "20-25"
-      ]
-    }
+    "date": "2017-11-18T23:30:00.000Z",
+    "tv": "SportTV",
+    "home": "VÔLEI RENATA",
+    "away": "SESI-SP",
+    "result": null
   },
   {
     "id": 40,
     "round": 7,
-    "date": "2016-12-03T20:00:00.000Z",
-    "tv": null,
-    "home": "COPEL TELECOM MARINGÁ VÔLEI",
-    "away": "SÃO BERNARDO VÔLEI",
-    "result": {
-      "homeSets": "1",
-      "awaySets": "3",
-      "partials": [
-        "23-25",
-        "22-25",
-        "25-19",
-        "18-25"
-      ]
-    }
+    "date": "2017-11-19T15:03:00.000Z",
+    "tv": "RedeTV",
+    "home": "JF VÔLEI",
+    "away": "SESC-RJ",
+    "result": null
   },
   {
     "id": 41,
     "round": 7,
-    "date": "2016-12-03T20:00:00.000Z",
-    "tv": null,
-    "home": "LEBES GEDORE CANOAS",
-    "away": " CARAMURU VÔLEI / CASTRO",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "1",
-      "partials": [
-        "21-25",
-        "25-20",
-        "25-20",
-        "25-21"
-      ]
-    }
+    "date": "2017-11-20T20:00:00.000Z",
+    "tv": "SportTV",
+    "home": "LEBES CANOAS",
+    "away": "COPEL TELECOM MARINGÁ VÔLEI",
+    "result": null
   },
   {
     "id": 42,
     "round": 7,
-    "date": "2016-12-03T21:30:00.000Z",
-    "tv": null,
-    "home": "SESI-SP",
-    "away": "FUNVIC TAUBATÉ",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "25-23",
-        "25-18",
-        "25-18"
-      ]
-    }
+    "date": "2017-11-21T23:30:00.000Z",
+    "tv": "SportTV",
+    "home": "PONTA GROSSA CARAMURU",
+    "away": "CORINTHIANS-GUARULHOS",
+    "result": null
   },
   {
     "id": 43,
     "round": 8,
-    "date": "2016-12-07T21:00:00.000Z",
-    "tv": null,
-    "home": "MONTES CLAROS VÔLEI",
-    "away": "SADA CRUZEIRO VÔLEI",
-    "result": {
-      "homeSets": "0",
-      "awaySets": "3",
-      "partials": [
-        "26-28",
-        "26-28",
-        "21-25"
-      ]
-    }
+    "date": "2017-11-23T21:00:00.000Z",
+    "tv": "SportTV",
+    "home": "MINAS TÊNIS CLUBE",
+    "away": "SESC-RJ",
+    "result": null
   },
   {
     "id": 44,
     "round": 8,
-    "date": "2016-12-07T21:30:00.000Z",
+    "date": "2017-11-25T20:00:00.000Z",
     "tv": null,
-    "home": "SÃO BERNARDO VÔLEI",
-    "away": "FUNVIC TAUBATÉ",
-    "result": {
-      "homeSets": "0",
-      "awaySets": "3",
-      "partials": [
-        "22-25",
-        "28-30",
-        "16-25"
-      ]
-    }
+    "home": "PONTA GROSSA CARAMURU",
+    "away": "LEBES CANOAS",
+    "result": null
   },
   {
     "id": 45,
     "round": 8,
-    "date": "2016-12-07T21:30:00.000Z",
+    "date": "2017-11-25T20:30:00.000Z",
     "tv": null,
-    "home": "JF VÔLEI",
-    "away": "BENTO VÔLEI ISABELA",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "25-23",
-        "25-20",
-        "25-20"
-      ]
-    }
+    "home": "COPEL TELECOM MARINGÁ VÔLEI",
+    "away": "JF VÔLEI",
+    "result": null
   },
   {
     "id": 46,
     "round": 8,
-    "date": "2016-12-07T21:30:00.000Z",
+    "date": "2017-11-25T20:30:00.000Z",
     "tv": null,
-    "home": "COPEL TELECOM MARINGÁ VÔLEI",
-    "away": "LEBES GEDORE CANOAS",
-    "result": {
-      "homeSets": "0",
-      "awaySets": "3",
-      "partials": [
-        "22-25",
-        "20-25",
-        "22-25"
-      ]
-    }
+    "home": "EMS TAUBATÉ FUNVIC",
+    "away": "VÔLEI RENATA",
+    "result": null
   },
   {
     "id": 47,
     "round": 8,
-    "date": "2016-12-07T22:00:00.000Z",
+    "date": "2017-11-25T21:00:00.000Z",
     "tv": null,
-    "home": " CARAMURU VÔLEI / CASTRO",
-    "away": "MINAS TÊNIS CLUBE",
-    "result": {
-      "homeSets": "2",
-      "awaySets": "3",
-      "partials": [
-        "30-32",
-        "17-25",
-        "25-22",
-        "25-16",
-        "16-18"
-      ]
-    }
+    "home": "MONTES CLAROS VÔLEI",
+    "away": "SADA CRUZEIRO VÔLEI",
+    "result": null
   },
   {
     "id": 48,
     "round": 8,
-    "date": "2016-12-14T23:00:00.000Z",
-    "tv": null,
-    "home": "VÔLEI BRASIL KIRIN",
+    "date": "2017-11-25T23:30:00.000Z",
+    "tv": "SportTV",
+    "home": "CORINTHIANS-GUARULHOS",
     "away": "SESI-SP",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "1",
-      "partials": [
-        "25-18",
-        "25-20",
-        "20-25",
-        "27-25"
-      ]
-    }
+    "result": null
   },
   {
     "id": 49,
     "round": 9,
-    "date": "2016-12-10T16:10:00.000Z",
+    "date": "2017-12-01T20:00:00.000Z",
     "tv": null,
-    "home": "SESI-SP",
-    "away": "SADA CRUZEIRO VÔLEI",
-    "result": {
-      "homeSets": "2",
-      "awaySets": "3",
-      "partials": [
-        "23-25",
-        "25-18",
-        "27-29",
-        "25-16",
-        "11-15"
-      ]
-    }
+    "home": "MINAS TÊNIS CLUBE",
+    "away": "COPEL TELECOM MARINGÁ VÔLEI",
+    "result": null
   },
   {
     "id": 50,
     "round": 9,
-    "date": "2016-12-10T19:00:00.000Z",
+    "date": "2017-12-02T13:30:00.000Z",
     "tv": null,
-    "home": "MINAS TÊNIS CLUBE",
-    "away": "COPEL TELECOM MARINGÁ VÔLEI",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "1",
-      "partials": [
-        "24-26",
-        "25-20",
-        "25-14",
-        "25-22"
-      ]
-    }
+    "home": "SESI-SP",
+    "away": "EMS TAUBATÉ FUNVIC",
+    "result": null
   },
   {
     "id": 51,
     "round": 9,
-    "date": "2016-12-10T20:00:00.000Z",
+    "date": "2017-12-02T20:00:00.000Z",
     "tv": null,
-    "home": "LEBES GEDORE CANOAS",
-    "away": "SÃO BERNARDO VÔLEI",
-    "result": {
-      "homeSets": "1",
-      "awaySets": "3",
-      "partials": [
-        "23-25",
-        "16-25",
-        "25-14",
-        "23-25"
-      ]
-    }
+    "home": "LEBES CANOAS",
+    "away": "CORINTHIANS-GUARULHOS",
+    "result": null
   },
   {
     "id": 52,
     "round": 9,
-    "date": "2016-12-10T20:00:00.000Z",
+    "date": "2017-12-02T20:00:00.000Z",
     "tv": null,
-    "home": "MONTES CLAROS VÔLEI",
-    "away": "JF VÔLEI",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "1",
-      "partials": [
-        "25-22",
-        "25-15",
-        "18-25",
-        "25-20"
-      ]
-    }
+    "home": "JF VÔLEI",
+    "away": "PONTA GROSSA CARAMURU",
+    "result": null
   },
   {
     "id": 53,
     "round": 9,
-    "date": "2016-12-10T20:30:00.000Z",
+    "date": "2017-12-02T21:00:00.000Z",
     "tv": null,
-    "home": "FUNVIC TAUBATÉ",
-    "away": "VÔLEI BRASIL KIRIN",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "1",
-      "partials": [
-        "25-17",
-        "22-25",
-        "25-19",
-        "25-20"
-      ]
-    }
+    "home": "MONTES CLAROS VÔLEI",
+    "away": "SESC-RJ",
+    "result": null
   },
   {
     "id": 54,
     "round": 9,
-    "date": "2016-12-10T22:00:00.000Z",
+    "date": "2017-12-02T21:00:00.000Z",
     "tv": null,
-    "home": "BENTO VÔLEI ISABELA",
-    "away": " CARAMURU VÔLEI / CASTRO",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "25-20",
-        "25-23",
-        "25-20"
-      ]
-    }
+    "home": "VÔLEI RENATA",
+    "away": "SADA CRUZEIRO VÔLEI",
+    "result": null
   },
   {
     "id": 55,
     "round": 10,
-    "date": "2016-12-15T23:55:00.000Z",
-    "tv": null,
-    "home": "LEBES GEDORE CANOAS",
-    "away": "MINAS TÊNIS CLUBE",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "1",
-      "partials": [
-        "25-22",
-        "25-13",
-        "16-25",
-        "25-19"
-      ]
-    }
+    "date": "2017-10-26T21:00:00.000Z",
+    "tv": "SportTV",
+    "home": "SADA CRUZEIRO VÔLEI",
+    "away": "SESI-SP",
+    "result": null
   },
   {
     "id": 56,
     "round": 10,
-    "date": "2016-12-17T13:00:00.000Z",
+    "date": "2017-12-09T13:30:00.000Z",
     "tv": null,
-    "home": "SÃO BERNARDO VÔLEI",
-    "away": "VÔLEI BRASIL KIRIN",
-    "result": {
-      "homeSets": "1",
-      "awaySets": "3",
-      "partials": [
-        "25-21",
-        "13-25",
-        "23-25",
-        "20-25"
-      ]
-    }
+    "home": "CORINTHIANS-GUARULHOS",
+    "away": "EMS TAUBATÉ FUNVIC",
+    "result": null
   },
   {
     "id": 57,
     "round": 10,
-    "date": "2016-12-17T15:30:00.000Z",
+    "date": "2017-12-09T20:00:00.000Z",
     "tv": null,
-    "home": "JF VÔLEI",
-    "away": "SESI-SP",
-    "result": {
-      "homeSets": "1",
-      "awaySets": "3",
-      "partials": [
-        "25-27",
-        "15-25",
-        "26-24",
-        "17-25"
-      ]
-    }
+    "home": "SESC-RJ",
+    "away": "VÔLEI RENATA",
+    "result": null
   },
   {
     "id": 58,
     "round": 10,
-    "date": "2016-12-17T21:30:00.000Z",
+    "date": "2017-12-09T20:00:00.000Z",
     "tv": null,
-    "home": "SADA CRUZEIRO VÔLEI",
-    "away": "FUNVIC TAUBATÉ",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "25-17",
-        "25-18",
-        "30-28"
-      ]
-    }
+    "home": "LEBES CANOAS",
+    "away": "JF VÔLEI",
+    "result": null
   },
   {
     "id": 59,
     "round": 10,
-    "date": "2016-12-17T22:00:00.000Z",
+    "date": "2017-12-09T20:30:00.000Z",
     "tv": null,
-    "home": "BENTO VÔLEI ISABELA",
-    "away": "COPEL TELECOM MARINGÁ VÔLEI",
-    "result": {
-      "homeSets": "2",
-      "awaySets": "3",
-      "partials": [
-        "25-16",
-        "19-25",
-        "25-22",
-        "12-25",
-        "13-15"
-      ]
-    }
+    "home": "COPEL TELECOM MARINGÁ VÔLEI",
+    "away": "MONTES CLAROS VÔLEI",
+    "result": null
   },
   {
     "id": 60,
     "round": 10,
-    "date": "2016-12-18T13:00:00.000Z",
+    "date": "2017-12-13T21:30:00.000Z",
     "tv": null,
-    "home": " CARAMURU VÔLEI / CASTRO",
-    "away": "MONTES CLAROS VÔLEI",
-    "result": {
-      "homeSets": "0",
-      "awaySets": "3",
-      "partials": [
-        "26-28",
-        "21-25",
-        "23-25"
-      ]
-    }
+    "home": "MINAS TÊNIS CLUBE",
+    "away": "PONTA GROSSA CARAMURU",
+    "result": null
   },
   {
     "id": 61,
     "round": 11,
-    "date": "2016-12-19T21:40:00.000Z",
-    "tv": null,
-    "home": "BENTO VÔLEI ISABELA",
-    "away": "LEBES GEDORE CANOAS",
-    "result": {
-      "homeSets": "1",
-      "awaySets": "3",
-      "partials": [
-        "21-25",
-        "25-18",
-        "20-25",
-        "21-25"
-      ]
-    }
+    "date": "2017-11-01T21:00:00.000Z",
+    "tv": "SportTV",
+    "home": "EMS TAUBATÉ FUNVIC",
+    "away": "SADA CRUZEIRO VÔLEI",
+    "result": null
   },
   {
     "id": 62,
     "round": 11,
-    "date": "2016-12-21T21:00:00.000Z",
+    "date": "2017-12-16T13:30:00.000Z",
     "tv": null,
-    "home": "MONTES CLAROS VÔLEI",
-    "away": "COPEL TELECOM MARINGÁ VÔLEI",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "28-26",
-        "25-20",
-        "25-21"
-      ]
-    }
+    "home": "SESI-SP",
+    "away": "SESC-RJ",
+    "result": null
   },
   {
     "id": 63,
     "round": 11,
-    "date": "2016-12-21T21:00:00.000Z",
+    "date": "2017-12-16T20:00:00.000Z",
     "tv": null,
-    "home": "SESI-SP",
-    "away": " CARAMURU VÔLEI / CASTRO",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "25-20",
-        "25-18",
-        "25-18"
-      ]
-    }
+    "home": "JF VÔLEI",
+    "away": "CORINTHIANS-GUARULHOS",
+    "result": null
   },
   {
     "id": 64,
     "round": 11,
-    "date": "2016-12-21T21:00:00.000Z",
+    "date": "2017-12-16T20:00:00.000Z",
     "tv": null,
     "home": "MINAS TÊNIS CLUBE",
-    "away": "SÃO BERNARDO VÔLEI",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "25-23",
-        "25-20",
-        "25-21"
-      ]
-    }
+    "away": "LEBES CANOAS",
+    "result": null
   },
   {
     "id": 65,
     "round": 11,
-    "date": "2016-12-21T21:30:00.000Z",
+    "date": "2017-12-16T20:00:00.000Z",
     "tv": null,
-    "home": "VÔLEI BRASIL KIRIN",
-    "away": "SADA CRUZEIRO VÔLEI",
-    "result": {
-      "homeSets": "0",
-      "awaySets": "3",
-      "partials": [
-        "21-25",
-        "22-25",
-        "20-25"
-      ]
-    }
+    "home": "VÔLEI RENATA",
+    "away": "COPEL TELECOM MARINGÁ VÔLEI",
+    "result": null
   },
   {
     "id": 66,
     "round": 11,
-    "date": "2016-12-22T23:55:00.000Z",
+    "date": "2017-12-16T21:00:00.000Z",
     "tv": null,
-    "home": "FUNVIC TAUBATÉ",
-    "away": "JF VÔLEI",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "25-14",
-        "25-22",
-        "25-23"
-      ]
-    }
+    "home": "MONTES CLAROS VÔLEI",
+    "away": "PONTA GROSSA CARAMURU",
+    "result": null
   },
   {
     "id": 67,
     "round": 12,
-    "date": "2016-01-07T20:30:00.000Z",
+    "date": "2017-12-21T21:00:00.000Z",
     "tv": null,
-    "home": "FUNVIC TAUBATÉ",
-    "away": " CARAMURU VÔLEI / CASTRO",
+    "home": "SESI-SP",
+    "away": "COPEL TELECOM MARINGÁ VÔLEI",
     "result": null
   },
   {
     "id": 68,
     "round": 12,
-    "date": "2017-01-07T16:10:00.000Z",
-    "tv": "RedeTV",
-    "home": "VÔLEI BRASIL KIRIN",
-    "away": "JF VÔLEI",
+    "date": "2017-12-21T21:00:00.000Z",
+    "tv": null,
+    "home": "MONTES CLAROS VÔLEI",
+    "away": "LEBES CANOAS",
     "result": null
   },
   {
     "id": 69,
     "round": 12,
-    "date": "2017-01-07T20:00:00.000Z",
+    "date": "2017-12-21T21:30:00.000Z",
     "tv": null,
-    "home": "SESI-SP",
-    "away": "COPEL TELECOM MARINGÁ VÔLEI",
+    "home": "MINAS TÊNIS CLUBE",
+    "away": "JF VÔLEI",
     "result": null
   },
   {
     "id": 70,
     "round": 12,
-    "date": "2017-01-07T21:00:00.000Z",
+    "date": "2017-12-21T22:00:00.000Z",
     "tv": null,
-    "home": "SADA CRUZEIRO VÔLEI",
-    "away": "SÃO BERNARDO VÔLEI",
+    "home": "EMS TAUBATÉ FUNVIC",
+    "away": "SESC-RJ",
     "result": null
   },
   {
     "id": 71,
     "round": 12,
-    "date": "2017-01-07T22:00:00.000Z",
-    "tv": "SportTV",
-    "home": "LEBES GEDORE CANOAS",
-    "away": "MONTES CLAROS VÔLEI",
+    "date": "2017-12-21T22:00:00.000Z",
+    "tv": null,
+    "home": "VÔLEI RENATA",
+    "away": "PONTA GROSSA CARAMURU",
     "result": null
   },
   {
     "id": 72,
     "round": 12,
-    "date": "2017-01-07T22:00:00.000Z",
+    "date": "2018-01-16T22:00:00.000Z",
     "tv": null,
-    "home": "BENTO VÔLEI ISABELA",
-    "away": "MINAS TÊNIS CLUBE",
+    "home": "SADA CRUZEIRO VÔLEI",
+    "away": "CORINTHIANS-GUARULHOS",
     "result": null
   },
   {
     "id": 73,
     "round": 13,
-    "date": "2017-01-14T13:00:00.000Z",
+    "date": "2018-01-13T13:30:00.000Z",
     "tv": null,
-    "home": "SÃO BERNARDO VÔLEI",
-    "away": "BENTO VÔLEI ISABELA",
+    "home": "SESI-SP",
+    "away": "PONTA GROSSA CARAMURU",
     "result": null
   },
   {
     "id": 74,
     "round": 13,
-    "date": "2017-01-14T16:10:00.000Z",
-    "tv": "RedeTV",
-    "home": "LEBES GEDORE CANOAS",
-    "away": "SESI-SP",
+    "date": "2018-01-13T20:00:00.000Z",
+    "tv": null,
+    "home": "MINAS TÊNIS CLUBE",
+    "away": "CORINTHIANS-GUARULHOS",
     "result": null
   },
   {
     "id": 75,
     "round": 13,
-    "date": "2017-01-14T19:00:00.000Z",
+    "date": "2018-01-13T20:00:00.000Z",
     "tv": null,
-    "home": "MINAS TÊNIS CLUBE",
+    "home": "JF VÔLEI",
     "away": "MONTES CLAROS VÔLEI",
     "result": null
   },
   {
     "id": 76,
     "round": 13,
-    "date": "2017-01-14T20:00:00.000Z",
+    "date": "2018-01-13T20:00:00.000Z",
     "tv": null,
-    "home": "COPEL TELECOM MARINGÁ VÔLEI",
-    "away": "FUNVIC TAUBATÉ",
+    "home": "LEBES CANOAS",
+    "away": "VÔLEI RENATA",
     "result": null
   },
   {
     "id": 77,
     "round": 13,
-    "date": "2017-01-14T22:00:00.000Z",
+    "date": "2018-01-13T20:00:00.000Z",
     "tv": null,
-    "home": " CARAMURU VÔLEI / CASTRO",
-    "away": "VÔLEI BRASIL KIRIN",
+    "home": "SESC-RJ",
+    "away": "SADA CRUZEIRO VÔLEI",
     "result": null
   },
   {
     "id": 78,
     "round": 13,
-    "date": "2017-01-14T23:30:00.000Z",
-    "tv": "SportTV",
-    "home": "SADA CRUZEIRO VÔLEI",
-    "away": "JF VÔLEI",
+    "date": "2018-01-13T20:30:00.000Z",
+    "tv": null,
+    "home": "COPEL TELECOM MARINGÁ VÔLEI",
+    "away": "EMS TAUBATÉ FUNVIC",
     "result": null
   },
   {
     "id": 79,
     "round": 14,
-    "date": "2017-01-26T23:00:00.000Z",
-    "tv": "SportTV",
-    "home": "VÔLEI BRASIL KIRIN",
-    "away": "COPEL TELECOM MARINGÁ VÔLEI",
+    "date": "2018-01-20T13:30:00.000Z",
+    "tv": null,
+    "home": "CORINTHIANS-GUARULHOS",
+    "away": "SESC-RJ",
     "result": null
   },
   {
     "id": 80,
     "round": 14,
-    "date": "2017-01-26T23:55:00.000Z",
-    "tv": "RedeTV",
+    "date": "2018-01-20T13:30:00.000Z",
+    "tv": null,
     "home": "SESI-SP",
-    "away": "MINAS TÊNIS CLUBE",
+    "away": "LEBES CANOAS",
     "result": null
   },
   {
     "id": 81,
     "round": 14,
-    "date": "2017-01-28T16:10:00.000Z",
-    "tv": "RedeTV",
-    "home": "FUNVIC TAUBATÉ",
-    "away": "LEBES GEDORE CANOAS",
+    "date": "2018-01-20T20:00:00.000Z",
+    "tv": null,
+    "home": "VÔLEI RENATA",
+    "away": "JF VÔLEI",
     "result": null
   },
   {
     "id": 82,
     "round": 14,
-    "date": "2017-01-28T20:00:00.000Z",
+    "date": "2018-01-20T20:30:00.000Z",
     "tv": null,
-    "home": "JF VÔLEI",
-    "away": "SÃO BERNARDO VÔLEI",
+    "home": "EMS TAUBATÉ FUNVIC",
+    "away": "PONTA GROSSA CARAMURU",
     "result": null
   },
   {
     "id": 83,
     "round": 14,
-    "date": "2017-01-28T20:00:00.000Z",
-    "tv": null,
-    "home": "MONTES CLAROS VÔLEI",
-    "away": "BENTO VÔLEI ISABELA",
-    "result": null
-  },
-  {
-    "id": 84,
-    "round": 14,
-    "date": "2017-01-28T21:00:00.000Z",
-    "tv": null,
-    "home": "SADA CRUZEIRO VÔLEI",
-    "away": " CARAMURU VÔLEI / CASTRO",
-    "result": null
-  },
-  {
-    "id": 85,
-    "round": 15,
-    "date": "2017-02-04T19:00:00.000Z",
-    "tv": null,
-    "home": "MINAS TÊNIS CLUBE",
-    "away": "FUNVIC TAUBATÉ",
-    "result": null
-  },
-  {
-    "id": 86,
-    "round": 15,
-    "date": "2017-02-04T20:00:00.000Z",
-    "tv": null,
-    "home": "LEBES GEDORE CANOAS",
-    "away": "VÔLEI BRASIL KIRIN",
-    "result": null
-  },
-  {
-    "id": 87,
-    "round": 15,
-    "date": "2017-02-04T20:00:00.000Z",
-    "tv": null,
-    "home": "MONTES CLAROS VÔLEI",
-    "away": "SÃO BERNARDO VÔLEI",
-    "result": null
-  },
-  {
-    "id": 88,
-    "round": 15,
-    "date": "2017-02-04T20:00:00.000Z",
-    "tv": null,
-    "home": "SESI-SP",
-    "away": "BENTO VÔLEI ISABELA",
-    "result": null
-  },
-  {
-    "id": 89,
-    "round": 15,
-    "date": "2017-02-04T21:00:00.000Z",
+    "date": "2018-01-20T21:00:00.000Z",
     "tv": null,
     "home": "SADA CRUZEIRO VÔLEI",
     "away": "COPEL TELECOM MARINGÁ VÔLEI",
     "result": null
   },
   {
+    "id": 84,
+    "round": 14,
+    "date": "2018-01-20T21:00:00.000Z",
+    "tv": null,
+    "home": "MONTES CLAROS VÔLEI",
+    "away": "MINAS TÊNIS CLUBE",
+    "result": null
+  },
+  {
+    "id": 85,
+    "round": 15,
+    "date": "2018-02-02T20:00:00.000Z",
+    "tv": null,
+    "home": "MINAS TÊNIS CLUBE",
+    "away": "VÔLEI RENATA",
+    "result": null
+  },
+  {
+    "id": 86,
+    "round": 15,
+    "date": "2018-02-03T20:00:00.000Z",
+    "tv": null,
+    "home": "JF VÔLEI",
+    "away": "SESI-SP",
+    "result": null
+  },
+  {
+    "id": 87,
+    "round": 15,
+    "date": "2018-02-03T20:00:00.000Z",
+    "tv": null,
+    "home": "LEBES CANOAS",
+    "away": "EMS TAUBATÉ FUNVIC",
+    "result": null
+  },
+  {
+    "id": 88,
+    "round": 15,
+    "date": "2018-02-03T21:00:00.000Z",
+    "tv": null,
+    "home": "SADA CRUZEIRO VÔLEI",
+    "away": "PONTA GROSSA CARAMURU",
+    "result": null
+  },
+  {
+    "id": 89,
+    "round": 15,
+    "date": "2018-02-03T21:00:00.000Z",
+    "tv": null,
+    "home": "MONTES CLAROS VÔLEI",
+    "away": "CORINTHIANS-GUARULHOS",
+    "result": null
+  },
+  {
     "id": 90,
     "round": 15,
-    "date": "2017-02-04T22:00:00.000Z",
+    "date": "2018-02-03T21:00:00.000Z",
     "tv": null,
-    "home": " CARAMURU VÔLEI / CASTRO",
-    "away": "JF VÔLEI",
+    "home": "COPEL TELECOM MARINGÁ VÔLEI",
+    "away": "SESC-RJ",
     "result": null
   },
   {
     "id": 91,
     "round": 16,
-    "date": "2017-02-08T21:00:00.000Z",
+    "date": "2018-01-17T22:00:00.000Z",
     "tv": null,
-    "home": "SESI-SP",
+    "home": "VÔLEI RENATA",
     "away": "MONTES CLAROS VÔLEI",
     "result": null
   },
   {
     "id": 92,
     "round": 16,
-    "date": "2017-02-08T21:30:00.000Z",
+    "date": "2018-01-31T22:00:00.000Z",
     "tv": null,
-    "home": "SÃO BERNARDO VÔLEI",
-    "away": " CARAMURU VÔLEI / CASTRO",
+    "home": "SADA CRUZEIRO VÔLEI",
+    "away": "LEBES CANOAS",
     "result": null
   },
   {
     "id": 93,
     "round": 16,
-    "date": "2017-02-08T21:30:00.000Z",
+    "date": "2018-02-08T21:00:00.000Z",
     "tv": null,
-    "home": "JF VÔLEI",
-    "away": "COPEL TELECOM MARINGÁ VÔLEI",
+    "home": "SESI-SP",
+    "away": "MINAS TÊNIS CLUBE",
     "result": null
   },
   {
     "id": 94,
     "round": 16,
-    "date": "2017-02-08T22:00:00.000Z",
+    "date": "2018-02-08T21:30:00.000Z",
     "tv": null,
-    "home": "SADA CRUZEIRO VÔLEI",
-    "away": "LEBES GEDORE CANOAS",
+    "home": "JF VÔLEI",
+    "away": "EMS TAUBATÉ FUNVIC",
     "result": null
   },
   {
     "id": 95,
     "round": 16,
-    "date": "2017-02-08T22:00:00.000Z",
+    "date": "2018-02-08T22:00:00.000Z",
     "tv": null,
-    "home": "VÔLEI BRASIL KIRIN",
-    "away": "MINAS TÊNIS CLUBE",
+    "home": "CORINTHIANS-GUARULHOS",
+    "away": "COPEL TELECOM MARINGÁ VÔLEI",
     "result": null
   },
   {
     "id": 96,
     "round": 16,
-    "date": "2017-02-08T22:00:00.000Z",
+    "date": "2018-02-08T22:00:00.000Z",
     "tv": null,
-    "home": "FUNVIC TAUBATÉ",
-    "away": "BENTO VÔLEI ISABELA",
+    "home": "SESC-RJ",
+    "away": "PONTA GROSSA CARAMURU",
     "result": null
   },
   {
     "id": 97,
     "round": 17,
-    "date": "2017-02-11T13:00:00.000Z",
+    "date": "2018-02-17T20:00:00.000Z",
     "tv": null,
-    "home": "SÃO BERNARDO VÔLEI",
-    "away": "SESI-SP",
+    "home": "VÔLEI RENATA",
+    "away": "CORINTHIANS-GUARULHOS",
     "result": null
   },
   {
     "id": 98,
     "round": 17,
-    "date": "2017-02-11T19:00:00.000Z",
+    "date": "2018-02-17T20:00:00.000Z",
     "tv": null,
     "home": "MINAS TÊNIS CLUBE",
-    "away": "SADA CRUZEIRO VÔLEI",
+    "away": "EMS TAUBATÉ FUNVIC",
     "result": null
   },
   {
     "id": 99,
     "round": 17,
-    "date": "2017-02-11T20:00:00.000Z",
+    "date": "2018-02-17T20:00:00.000Z",
     "tv": null,
-    "home": "LEBES GEDORE CANOAS",
-    "away": "JF VÔLEI",
+    "home": "LEBES CANOAS",
+    "away": "SESC-RJ",
     "result": null
   },
   {
     "id": 100,
     "round": 17,
-    "date": "2017-02-11T20:00:00.000Z",
+    "date": "2018-02-17T20:00:00.000Z",
     "tv": null,
-    "home": "COPEL TELECOM MARINGÁ VÔLEI",
-    "away": " CARAMURU VÔLEI / CASTRO",
+    "home": "PONTA GROSSA CARAMURU",
+    "away": "COPEL TELECOM MARINGÁ VÔLEI",
     "result": null
   },
   {
     "id": 101,
     "round": 17,
-    "date": "2017-02-11T20:00:00.000Z",
+    "date": "2018-02-17T21:00:00.000Z",
     "tv": null,
     "home": "MONTES CLAROS VÔLEI",
-    "away": "FUNVIC TAUBATÉ",
+    "away": "SESI-SP",
     "result": null
   },
   {
     "id": 102,
     "round": 17,
-    "date": "2017-02-11T22:00:00.000Z",
+    "date": "2018-02-17T21:00:00.000Z",
     "tv": null,
-    "home": "BENTO VÔLEI ISABELA",
-    "away": "VÔLEI BRASIL KIRIN",
+    "home": "SADA CRUZEIRO VÔLEI",
+    "away": "JF VÔLEI",
     "result": null
   },
   {
     "id": 103,
     "round": 18,
-    "date": "2017-02-18T13:00:00.000Z",
+    "date": "2018-02-21T22:00:00.000Z",
     "tv": null,
-    "home": "SÃO BERNARDO VÔLEI",
-    "away": "COPEL TELECOM MARINGÁ VÔLEI",
+    "home": "SESI-SP",
+    "away": "VÔLEI RENATA",
     "result": null
   },
   {
     "id": 104,
     "round": 18,
-    "date": "2017-02-18T20:00:00.000Z",
+    "date": "2018-02-21T22:30:00.000Z",
     "tv": null,
-    "home": "JF VÔLEI",
-    "away": "MINAS TÊNIS CLUBE",
+    "home": "COPEL TELECOM MARINGÁ VÔLEI",
+    "away": "LEBES CANOAS",
     "result": null
   },
   {
     "id": 105,
     "round": 18,
-    "date": "2017-02-18T20:00:00.000Z",
+    "date": "2018-02-21T23:00:00.000Z",
     "tv": null,
-    "home": "VÔLEI BRASIL KIRIN",
-    "away": "MONTES CLAROS VÔLEI",
+    "home": "CORINTHIANS-GUARULHOS",
+    "away": "PONTA GROSSA CARAMURU",
     "result": null
   },
   {
     "id": 106,
     "round": 18,
-    "date": "2017-02-18T20:30:00.000Z",
+    "date": "2018-02-21T23:00:00.000Z",
     "tv": null,
-    "home": "FUNVIC TAUBATÉ",
-    "away": "SESI-SP",
+    "home": "SADA CRUZEIRO VÔLEI",
+    "away": "MINAS TÊNIS CLUBE",
     "result": null
   },
   {
     "id": 107,
     "round": 18,
-    "date": "2017-02-18T21:00:00.000Z",
+    "date": "2018-02-21T23:00:00.000Z",
     "tv": null,
-    "home": "SADA CRUZEIRO VÔLEI",
-    "away": "BENTO VÔLEI ISABELA",
+    "home": "EMS TAUBATÉ FUNVIC",
+    "away": "MONTES CLAROS VÔLEI",
     "result": null
   },
   {
     "id": 108,
     "round": 18,
-    "date": "2017-02-18T22:00:00.000Z",
+    "date": "2018-03-21T23:00:00.000Z",
     "tv": null,
-    "home": " CARAMURU VÔLEI / CASTRO",
-    "away": "LEBES GEDORE CANOAS",
+    "home": "SESC-RJ",
+    "away": "JF VÔLEI",
     "result": null
   },
   {
     "id": 109,
     "round": 19,
-    "date": "2017-02-22T22:00:00.000Z",
+    "date": "2018-02-24T14:30:00.000Z",
     "tv": null,
     "home": "SESI-SP",
-    "away": "VÔLEI BRASIL KIRIN",
+    "away": "CORINTHIANS-GUARULHOS",
     "result": null
   },
   {
     "id": 110,
     "round": 19,
-    "date": "2017-02-22T23:00:00.000Z",
+    "date": "2018-02-24T21:00:00.000Z",
     "tv": null,
-    "home": "FUNVIC TAUBATÉ",
-    "away": "SÃO BERNARDO VÔLEI",
+    "home": "VÔLEI RENATA",
+    "away": "EMS TAUBATÉ FUNVIC",
     "result": null
   },
   {
     "id": 111,
     "round": 19,
-    "date": "2017-02-22T23:00:00.000Z",
+    "date": "2018-02-24T21:00:00.000Z",
     "tv": null,
-    "home": "BENTO VÔLEI ISABELA",
-    "away": "JF VÔLEI",
+    "home": "SESC-RJ",
+    "away": "MINAS TÊNIS CLUBE",
     "result": null
   },
   {
     "id": 112,
     "round": 19,
-    "date": "2017-02-22T23:00:00.000Z",
+    "date": "2018-02-24T21:00:00.000Z",
     "tv": null,
-    "home": "MINAS TÊNIS CLUBE",
-    "away": " CARAMURU VÔLEI / CASTRO",
+    "home": "JF VÔLEI",
+    "away": "COPEL TELECOM MARINGÁ VÔLEI",
     "result": null
   },
   {
     "id": 113,
     "round": 19,
-    "date": "2017-02-22T23:00:00.000Z",
+    "date": "2018-02-24T21:00:00.000Z",
     "tv": null,
-    "home": "LEBES GEDORE CANOAS",
-    "away": "COPEL TELECOM MARINGÁ VÔLEI",
+    "home": "LEBES CANOAS",
+    "away": "PONTA GROSSA CARAMURU",
     "result": null
   },
   {
     "id": 114,
     "round": 19,
-    "date": "2017-03-01T23:00:00.000Z",
+    "date": "2018-02-24T22:00:00.000Z",
     "tv": null,
     "home": "SADA CRUZEIRO VÔLEI",
     "away": "MONTES CLAROS VÔLEI",
@@ -1599,163 +1028,163 @@
   {
     "id": 115,
     "round": 20,
-    "date": "2017-03-04T14:00:00.000Z",
+    "date": "2018-03-03T14:30:00.000Z",
     "tv": null,
-    "home": "SÃO BERNARDO VÔLEI",
-    "away": "LEBES GEDORE CANOAS",
+    "home": "CORINTHIANS-GUARULHOS",
+    "away": "LEBES CANOAS",
     "result": null
   },
   {
     "id": 116,
     "round": 20,
-    "date": "2017-03-04T21:00:00.000Z",
+    "date": "2018-03-03T21:00:00.000Z",
     "tv": null,
-    "home": "COPEL TELECOM MARINGÁ VÔLEI",
-    "away": "MINAS TÊNIS CLUBE",
+    "home": "PONTA GROSSA CARAMURU",
+    "away": "JF VÔLEI",
     "result": null
   },
   {
     "id": 117,
     "round": 20,
-    "date": "2017-03-04T21:00:00.000Z",
+    "date": "2018-03-03T21:00:00.000Z",
     "tv": null,
-    "home": "JF VÔLEI",
+    "home": "SESC-RJ",
     "away": "MONTES CLAROS VÔLEI",
     "result": null
   },
   {
     "id": 118,
     "round": 20,
-    "date": "2017-03-04T21:00:00.000Z",
+    "date": "2018-03-03T21:30:00.000Z",
     "tv": null,
-    "home": "VÔLEI BRASIL KIRIN",
-    "away": "FUNVIC TAUBATÉ",
+    "home": "COPEL TELECOM MARINGÁ VÔLEI",
+    "away": "MINAS TÊNIS CLUBE",
     "result": null
   },
   {
     "id": 119,
     "round": 20,
-    "date": "2017-03-04T22:00:00.000Z",
+    "date": "2018-03-03T21:30:00.000Z",
     "tv": null,
-    "home": "SADA CRUZEIRO VÔLEI",
+    "home": "EMS TAUBATÉ FUNVIC",
     "away": "SESI-SP",
     "result": null
   },
   {
     "id": 120,
     "round": 20,
-    "date": "2017-03-04T23:00:00.000Z",
+    "date": "2018-03-03T22:00:00.000Z",
     "tv": null,
-    "home": " CARAMURU VÔLEI / CASTRO",
-    "away": "BENTO VÔLEI ISABELA",
+    "home": "SADA CRUZEIRO VÔLEI",
+    "away": "VÔLEI RENATA",
     "result": null
   },
   {
     "id": 121,
     "round": 21,
-    "date": "2017-03-08T22:00:00.000Z",
+    "date": "2018-03-10T14:30:00.000Z",
     "tv": null,
     "home": "SESI-SP",
-    "away": "JF VÔLEI",
+    "away": "SADA CRUZEIRO VÔLEI",
     "result": null
   },
   {
     "id": 122,
     "round": 21,
-    "date": "2017-03-08T22:00:00.000Z",
+    "date": "2018-03-10T21:00:00.000Z",
     "tv": null,
-    "home": "MONTES CLAROS VÔLEI",
-    "away": " CARAMURU VÔLEI / CASTRO",
+    "home": "VÔLEI RENATA",
+    "away": "SESC-RJ",
     "result": null
   },
   {
     "id": 123,
     "round": 21,
-    "date": "2017-03-08T22:30:00.000Z",
+    "date": "2018-03-10T21:00:00.000Z",
     "tv": null,
-    "home": "COPEL TELECOM MARINGÁ VÔLEI",
-    "away": "BENTO VÔLEI ISABELA",
+    "home": "PONTA GROSSA CARAMURU",
+    "away": "MINAS TÊNIS CLUBE",
     "result": null
   },
   {
     "id": 124,
     "round": 21,
-    "date": "2017-03-08T23:00:00.000Z",
+    "date": "2018-03-10T21:00:00.000Z",
     "tv": null,
-    "home": "VÔLEI BRASIL KIRIN",
-    "away": "SÃO BERNARDO VÔLEI",
+    "home": "JF VÔLEI",
+    "away": "LEBES CANOAS",
     "result": null
   },
   {
     "id": 125,
     "round": 21,
-    "date": "2017-03-08T23:00:00.000Z",
+    "date": "2018-03-10T21:30:00.000Z",
     "tv": null,
-    "home": "FUNVIC TAUBATÉ",
-    "away": "SADA CRUZEIRO VÔLEI",
+    "home": "EMS TAUBATÉ FUNVIC",
+    "away": "CORINTHIANS-GUARULHOS",
     "result": null
   },
   {
     "id": 126,
     "round": 21,
-    "date": "2017-03-08T23:00:00.000Z",
+    "date": "2018-03-10T22:00:00.000Z",
     "tv": null,
-    "home": "MINAS TÊNIS CLUBE",
-    "away": "LEBES GEDORE CANOAS",
+    "home": "MONTES CLAROS VÔLEI",
+    "away": "COPEL TELECOM MARINGÁ VÔLEI",
     "result": null
   },
   {
     "id": 127,
     "round": 22,
-    "date": "2017-03-11T03:00:00.000Z",
+    "date": "2018-03-17T03:00:00.000Z",
     "tv": null,
-    "home": "SÃO BERNARDO VÔLEI",
-    "away": "MINAS TÊNIS CLUBE",
+    "home": "CORINTHIANS-GUARULHOS",
+    "away": "JF VÔLEI",
     "result": null
   },
   {
     "id": 128,
     "round": 22,
-    "date": "2017-03-11T03:00:00.000Z",
+    "date": "2018-03-17T03:00:00.000Z",
     "tv": null,
-    "home": "LEBES GEDORE CANOAS",
-    "away": "BENTO VÔLEI ISABELA",
+    "home": "LEBES CANOAS",
+    "away": "MINAS TÊNIS CLUBE",
     "result": null
   },
   {
     "id": 129,
     "round": 22,
-    "date": "2017-03-11T03:00:00.000Z",
+    "date": "2018-03-17T03:00:00.000Z",
     "tv": null,
-    "home": "COPEL TELECOM MARINGÁ VÔLEI",
+    "home": "PONTA GROSSA CARAMURU",
     "away": "MONTES CLAROS VÔLEI",
     "result": null
   },
   {
     "id": 130,
     "round": 22,
-    "date": "2017-03-11T03:00:00.000Z",
+    "date": "2018-03-17T03:00:00.000Z",
     "tv": null,
-    "home": " CARAMURU VÔLEI / CASTRO",
-    "away": "SESI-SP",
+    "home": "COPEL TELECOM MARINGÁ VÔLEI",
+    "away": "VÔLEI RENATA",
     "result": null
   },
   {
     "id": 131,
     "round": 22,
-    "date": "2017-03-11T03:00:00.000Z",
+    "date": "2018-03-17T03:00:00.000Z",
     "tv": null,
-    "home": "JF VÔLEI",
-    "away": "FUNVIC TAUBATÉ",
+    "home": "SESC-RJ",
+    "away": "SESI-SP",
     "result": null
   },
   {
     "id": 132,
     "round": 22,
-    "date": "2017-03-11T03:00:00.000Z",
+    "date": "2018-03-17T03:00:00.000Z",
     "tv": null,
     "home": "SADA CRUZEIRO VÔLEI",
-    "away": "VÔLEI BRASIL KIRIN",
+    "away": "EMS TAUBATÉ FUNVIC",
     "result": null
   }
 ]

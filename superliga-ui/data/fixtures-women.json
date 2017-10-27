@@ -2,1750 +2,1189 @@
   {
     "id": 1,
     "round": 1,
-    "date": "2016-10-27T21:00:00.000Z",
-    "tv": null,
-    "home": "RENATA VALINHOS / COUNTRY ",
-    "away": "DENTIL/PRAIA CLUBE",
-    "result": {
-      "homeSets": "1",
-      "awaySets": "3",
-      "partials": [
-        "19-25",
-        "25-16",
-        "18-25",
-        "18-25"
-      ]
-    }
+    "date": "2017-10-15T15:00:00.000Z",
+    "tv": "RedeTV",
+    "home": "FLUMINENSE F. C.",
+    "away": "BRB/BRASÍLIA VÔLEI",
+    "result": null
   },
   {
     "id": 2,
     "round": 1,
-    "date": "2016-10-27T23:55:00.000Z",
-    "tv": null,
-    "home": "GENTER VÔLEI BAURU",
-    "away": "CAMPONESA/MINAS",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "1",
-      "partials": [
-        "25-23",
-        "25-21",
-        "20-25",
-        "25-19"
-      ]
-    }
+    "date": "2017-10-17T21:30:00.000Z",
+    "tv": "SportTV",
+    "home": "E.C.PINHEIROS",
+    "away": "VÔLEI BAURU",
+    "result": null
   },
   {
     "id": 3,
     "round": 1,
-    "date": "2016-10-28T21:30:00.000Z",
+    "date": "2017-10-17T21:30:00.000Z",
     "tv": null,
-    "home": "E.C.PINHEIROS",
-    "away": "TERRACAP/BRB/BRASÍLIA VÔLEI",
-    "result": {
-      "homeSets": "0",
-      "awaySets": "3",
-      "partials": [
-        "24-26",
-        "15-25",
-        "23-25"
-      ]
-    }
+    "home": "HINODE BARUERI",
+    "away": "VÔLEI NESTLÉ",
+    "result": null
   },
   {
     "id": 4,
     "round": 1,
-    "date": "2016-10-29T19:00:00.000Z",
+    "date": "2017-10-17T22:00:00.000Z",
     "tv": null,
-    "home": "VÔLEI NESTLÉ ",
+    "home": "CAMPONESA/MINAS",
     "away": "SÃO CRISTOVÃO SAÚDE/SÃO CAETANO",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "1",
-      "partials": [
-        "25-18",
-        "25-22",
-        "22-25",
-        "25-20"
-      ]
-    }
+    "result": null
   },
   {
     "id": 5,
     "round": 1,
-    "date": "2016-10-30T21:30:00.000Z",
+    "date": "2017-10-17T22:00:00.000Z",
     "tv": null,
-    "home": "SESI-SP",
-    "away": "RIO DO SUL",
-    "result": {
-      "homeSets": "1",
-      "awaySets": "3",
-      "partials": [
-        "25-16",
-        "21-25",
-        "14-25",
-        "21-25"
-      ]
-    }
+    "home": "RENATA VALINHOS / COUNTRY",
+    "away": "DENTIL/PRAIA CLUBE",
+    "result": null
   },
   {
     "id": 6,
     "round": 1,
-    "date": "2016-11-01T23:00:00.000Z",
-    "tv": null,
-    "home": "FLUMINENSE F. C.",
-    "away": "REXONA-SESC",
-    "result": {
-      "homeSets": "0",
-      "awaySets": "3",
-      "partials": [
-        "21-25",
-        "19-25",
-        "17-25"
-      ]
-    }
+    "date": "2017-10-17T23:30:00.000Z",
+    "tv": "SportTV",
+    "home": "SESI-SP",
+    "away": "SESC-RJ",
+    "result": null
   },
   {
     "id": 7,
     "round": 2,
-    "date": "2016-11-03T23:55:00.000Z",
-    "tv": null,
-    "home": "REXONA-SESC",
-    "away": "RENATA VALINHOS / COUNTRY ",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "25-15",
-        "25-15",
-        "25-14"
-      ]
-    }
+    "date": "2017-10-20T21:00:00.000Z",
+    "tv": "SportTV",
+    "home": "VÔLEI BAURU",
+    "away": "FLUMINENSE F. C.",
+    "result": null
   },
   {
     "id": 8,
     "round": 2,
-    "date": "2016-11-04T21:30:00.000Z",
+    "date": "2017-10-20T21:30:00.000Z",
     "tv": null,
     "home": "DENTIL/PRAIA CLUBE",
-    "away": "GENTER VÔLEI BAURU",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "25-16",
-        "25-23",
-        "25-16"
-      ]
-    }
+    "away": "SÃO CRISTOVÃO SAÚDE/SÃO CAETANO",
+    "result": null
   },
   {
     "id": 9,
     "round": 2,
-    "date": "2016-11-04T22:00:00.000Z",
+    "date": "2017-10-20T21:30:00.000Z",
     "tv": null,
-    "home": "FLUMINENSE F. C.",
-    "away": "RIO DO SUL",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "25-19",
-        "26-24",
-        "25-20"
-      ]
-    }
+    "home": "VÔLEI NESTLÉ",
+    "away": "RENATA VALINHOS / COUNTRY",
+    "result": null
   },
   {
     "id": 10,
     "round": 2,
-    "date": "2016-11-04T22:00:00.000Z",
-    "tv": null,
-    "home": "CAMPONESA/MINAS",
-    "away": "SÃO CRISTOVÃO SAÚDE/SÃO CAETANO",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "25-17",
-        "25-22",
-        "25-12"
-      ]
-    }
+    "date": "2017-10-20T23:30:00.000Z",
+    "tv": "SportTV",
+    "home": "SESC-RJ",
+    "away": "HINODE BARUERI",
+    "result": null
   },
   {
     "id": 11,
     "round": 2,
-    "date": "2016-11-04T23:30:00.000Z",
-    "tv": null,
-    "home": "VÔLEI NESTLÉ ",
+    "date": "2017-10-21T16:05:00.000Z",
+    "tv": "RedeTV",
+    "home": "CAMPONESA/MINAS",
     "away": "E.C.PINHEIROS",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "1",
-      "partials": [
-        "18-25",
-        "25-19",
-        "25-15",
-        "25-16"
-      ]
-    }
+    "result": null
   },
   {
     "id": 12,
     "round": 2,
-    "date": "2016-11-05T20:00:00.000Z",
+    "date": "2017-10-21T20:00:00.000Z",
     "tv": null,
-    "home": "TERRACAP/BRB/BRASÍLIA VÔLEI",
+    "home": "BRB/BRASÍLIA VÔLEI",
     "away": "SESI-SP",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "25-16",
-        "25-15",
-        "25-18"
-      ]
-    }
+    "result": null
   },
   {
     "id": 13,
     "round": 3,
-    "date": "2016-11-09T21:00:00.000Z",
-    "tv": null,
-    "home": "RIO DO SUL",
-    "away": "TERRACAP/BRB/BRASÍLIA VÔLEI",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "25-18",
-        "25-16",
-        "25-22"
-      ]
-    }
+    "date": "2017-10-26T23:30:00.000Z",
+    "tv": "SportTV",
+    "home": "RENATA VALINHOS / COUNTRY",
+    "away": "SESC-RJ",
+    "result": null
   },
   {
     "id": 14,
     "round": 3,
-    "date": "2016-11-11T21:30:00.000Z",
+    "date": "2017-10-27T21:00:00.000Z",
     "tv": null,
-    "home": "GENTER VÔLEI BAURU",
-    "away": "REXONA-SESC",
-    "result": {
-      "homeSets": "1",
-      "awaySets": "3",
-      "partials": [
-        "18-25",
-        "25-22",
-        "19-25",
-        "17-25"
-      ]
-    }
+    "home": "SESI-SP",
+    "away": "HINODE BARUERI",
+    "result": null
   },
   {
     "id": 15,
     "round": 3,
-    "date": "2016-11-11T22:00:00.000Z",
-    "tv": null,
-    "home": "SÃO CRISTOVÃO SAÚDE/SÃO CAETANO",
+    "date": "2017-10-27T23:30:00.000Z",
+    "tv": "SportTV",
+    "home": "E.C.PINHEIROS",
     "away": "DENTIL/PRAIA CLUBE",
-    "result": {
-      "homeSets": "0",
-      "awaySets": "3",
-      "partials": [
-        "19-25",
-        "17-25",
-        "18-25"
-      ]
-    }
+    "result": null
   },
   {
     "id": 16,
     "round": 3,
-    "date": "2016-11-12T16:10:00.000Z",
-    "tv": null,
-    "home": "RENATA VALINHOS / COUNTRY ",
-    "away": "FLUMINENSE F. C.",
-    "result": {
-      "homeSets": "0",
-      "awaySets": "3",
-      "partials": [
-        "14-25",
-        "21-25",
-        "12-25"
-      ]
-    }
+    "date": "2017-10-28T16:05:00.000Z",
+    "tv": "RedeTV",
+    "home": "FLUMINENSE F. C.",
+    "away": "CAMPONESA/MINAS",
+    "result": null
   },
   {
     "id": 17,
     "round": 3,
-    "date": "2016-11-12T23:30:00.000Z",
+    "date": "2017-10-28T20:30:00.000Z",
     "tv": null,
-    "home": "SESI-SP",
-    "away": "VÔLEI NESTLÉ ",
-    "result": {
-      "homeSets": "0",
-      "awaySets": "3",
-      "partials": [
-        "9-25",
-        "23-25",
-        "15-25"
-      ]
-    }
+    "home": "BRB/BRASÍLIA VÔLEI",
+    "away": "VÔLEI BAURU",
+    "result": null
   },
   {
     "id": 18,
     "round": 3,
-    "date": "2016-11-14T21:30:00.000Z",
+    "date": "2017-10-31T22:00:00.000Z",
     "tv": null,
-    "home": "E.C.PINHEIROS",
-    "away": "CAMPONESA/MINAS",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "29-27",
-        "25-20",
-        "25-23"
-      ]
-    }
+    "home": "SÃO CRISTOVÃO SAÚDE/SÃO CAETANO",
+    "away": "VÔLEI NESTLÉ",
+    "result": null
   },
   {
     "id": 19,
     "round": 4,
-    "date": "2016-11-01T21:30:00.000Z",
+    "date": "2017-11-02T21:00:00.000Z",
     "tv": null,
-    "home": "VÔLEI NESTLÉ ",
-    "away": "RIO DO SUL",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "25-20",
-        "28-26",
-        "25-18"
-      ]
-    }
+    "home": "SESI-SP",
+    "away": "VÔLEI BAURU",
+    "result": null
   },
   {
     "id": 20,
     "round": 4,
-    "date": "2016-11-18T21:30:00.000Z",
+    "date": "2017-11-02T21:30:00.000Z",
     "tv": null,
-    "home": "RENATA VALINHOS / COUNTRY ",
-    "away": "GENTER VÔLEI BAURU",
-    "result": {
-      "homeSets": "1",
-      "awaySets": "3",
-      "partials": [
-        "28-26",
-        "25-27",
-        "14-25",
-        "19-25"
-      ]
-    }
+    "home": "HINODE BARUERI",
+    "away": "RENATA VALINHOS / COUNTRY",
+    "result": null
   },
   {
     "id": 21,
     "round": 4,
-    "date": "2016-11-18T22:00:00.000Z",
-    "tv": null,
-    "home": "FLUMINENSE F. C.",
-    "away": "TERRACAP/BRB/BRASÍLIA VÔLEI",
-    "result": {
-      "homeSets": "0",
-      "awaySets": "3",
-      "partials": [
-        "17-25",
-        "22-25",
-        "15-25"
-      ]
-    }
+    "date": "2017-11-02T23:30:00.000Z",
+    "tv": "SportTV",
+    "home": "DENTIL/PRAIA CLUBE",
+    "away": "FLUMINENSE F. C.",
+    "result": null
   },
   {
     "id": 22,
     "round": 4,
-    "date": "2016-11-18T22:00:00.000Z",
+    "date": "2017-11-03T22:00:00.000Z",
     "tv": null,
-    "home": "CAMPONESA/MINAS",
-    "away": "SESI-SP",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "1",
-      "partials": [
-        "25-17",
-        "25-13",
-        "22-25",
-        "25-16"
-      ]
-    }
+    "home": "BRB/BRASÍLIA VÔLEI",
+    "away": "CAMPONESA/MINAS",
+    "result": null
   },
   {
     "id": 23,
     "round": 4,
-    "date": "2016-11-18T23:30:00.000Z",
+    "date": "2017-11-03T22:00:00.000Z",
     "tv": null,
-    "home": "REXONA-SESC",
+    "home": "SESC-RJ",
     "away": "SÃO CRISTOVÃO SAÚDE/SÃO CAETANO",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "25-21",
-        "25-14",
-        "25-23"
-      ]
-    }
+    "result": null
   },
   {
     "id": 24,
     "round": 4,
-    "date": "2016-11-19T16:10:00.000Z",
-    "tv": null,
-    "home": "DENTIL/PRAIA CLUBE",
+    "date": "2017-11-03T23:30:00.000Z",
+    "tv": "SportTV",
+    "home": "VÔLEI NESTLÉ",
     "away": "E.C.PINHEIROS",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "25-20",
-        "25-16",
-        "25-18"
-      ]
-    }
+    "result": null
   },
   {
     "id": 25,
     "round": 5,
-    "date": "2016-11-22T21:30:00.000Z",
+    "date": "2017-10-31T22:00:00.000Z",
     "tv": null,
-    "home": "GENTER VÔLEI BAURU",
-    "away": "FLUMINENSE F. C.",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "25-17",
-        "25-17",
-        "25-21"
-      ]
-    }
+    "home": "BRB/BRASÍLIA VÔLEI",
+    "away": "DENTIL/PRAIA CLUBE",
+    "result": null
   },
   {
     "id": 26,
     "round": 5,
-    "date": "2016-11-22T21:30:00.000Z",
-    "tv": null,
+    "date": "2017-11-06T19:00:00.000Z",
+    "tv": "SportTV",
     "home": "SÃO CRISTOVÃO SAÚDE/SÃO CAETANO",
-    "away": "RENATA VALINHOS / COUNTRY ",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "25-21",
-        "25-17",
-        "25-18"
-      ]
-    }
+    "away": "HINODE BARUERI",
+    "result": null
   },
   {
     "id": 27,
     "round": 5,
-    "date": "2016-11-22T21:30:00.000Z",
+    "date": "2017-11-07T21:00:00.000Z",
     "tv": null,
-    "home": "E.C.PINHEIROS",
-    "away": "REXONA-SESC",
-    "result": {
-      "homeSets": "0",
-      "awaySets": "3",
-      "partials": [
-        "16-25",
-        "23-25",
-        "22-25"
-      ]
-    }
+    "home": "SESI-SP",
+    "away": "RENATA VALINHOS / COUNTRY",
+    "result": null
   },
   {
     "id": 28,
     "round": 5,
-    "date": "2016-11-22T22:00:00.000Z",
+    "date": "2017-11-07T21:30:00.000Z",
     "tv": null,
-    "home": "TERRACAP/BRB/BRASÍLIA VÔLEI",
-    "away": "VÔLEI NESTLÉ ",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "25-22",
-        "25-20",
-        "25-23"
-      ]
-    }
+    "home": "E.C.PINHEIROS",
+    "away": "SESC-RJ",
+    "result": null
   },
   {
     "id": 29,
     "round": 5,
-    "date": "2016-11-22T22:15:00.000Z",
+    "date": "2017-11-07T22:00:00.000Z",
     "tv": null,
-    "home": "RIO DO SUL",
-    "away": "CAMPONESA/MINAS",
-    "result": {
-      "homeSets": "2",
-      "awaySets": "3",
-      "partials": [
-        "19-25",
-        "20-25",
-        "25-19",
-        "25-23",
-        "8-15"
-      ]
-    }
+    "home": "FLUMINENSE F. C.",
+    "away": "VÔLEI NESTLÉ",
+    "result": null
   },
   {
     "id": 30,
     "round": 5,
-    "date": "2016-11-22T23:30:00.000Z",
-    "tv": null,
-    "home": "SESI-SP",
-    "away": "DENTIL/PRAIA CLUBE",
-    "result": {
-      "homeSets": "1",
-      "awaySets": "3",
-      "partials": [
-        "23-25",
-        "25-22",
-        "20-25",
-        "22-25"
-      ]
-    }
+    "date": "2017-11-07T23:30:00.000Z",
+    "tv": "SportTV",
+    "home": "VÔLEI BAURU",
+    "away": "CAMPONESA/MINAS",
+    "result": null
   },
   {
     "id": 31,
     "round": 6,
-    "date": "2016-11-24T20:00:00.000Z",
+    "date": "2017-11-10T21:00:00.000Z",
     "tv": null,
-    "home": "GENTER VÔLEI BAURU",
-    "away": "SÃO CRISTOVÃO SAÚDE/SÃO CAETANO",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "25-18",
-        "25-19",
-        "25-17"
-      ]
-    }
+    "home": "SESI-SP",
+    "away": "CAMPONESA/MINAS",
+    "result": null
   },
   {
     "id": 32,
     "round": 6,
-    "date": "2016-11-25T21:30:00.000Z",
+    "date": "2017-11-10T21:30:00.000Z",
     "tv": null,
     "home": "DENTIL/PRAIA CLUBE",
-    "away": "RIO DO SUL",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "25-21",
-        "25-21",
-        "25-17"
-      ]
-    }
+    "away": "VÔLEI BAURU",
+    "result": null
   },
   {
     "id": 33,
     "round": 6,
-    "date": "2016-11-25T21:30:00.000Z",
+    "date": "2017-11-10T21:30:00.000Z",
     "tv": null,
-    "home": "RENATA VALINHOS / COUNTRY ",
+    "home": "HINODE BARUERI",
     "away": "E.C.PINHEIROS",
-    "result": {
-      "homeSets": "0",
-      "awaySets": "3",
-      "partials": [
-        "18-25",
-        "16-25",
-        "12-25"
-      ]
-    }
+    "result": null
   },
   {
     "id": 34,
     "round": 6,
-    "date": "2016-11-25T22:00:00.000Z",
+    "date": "2017-11-10T22:00:00.000Z",
     "tv": null,
-    "home": "CAMPONESA/MINAS",
-    "away": "TERRACAP/BRB/BRASÍLIA VÔLEI",
-    "result": {
-      "homeSets": "0",
-      "awaySets": "3",
-      "partials": [
-        "23-25",
-        "20-25",
-        "26-28"
-      ]
-    }
+    "home": "SESC-RJ",
+    "away": "FLUMINENSE F. C.",
+    "result": null
   },
   {
     "id": 35,
     "round": 6,
-    "date": "2016-11-25T23:30:00.000Z",
-    "tv": null,
-    "home": "REXONA-SESC",
-    "away": "SESI-SP",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "25-21",
-        "25-17",
-        "25-12"
-      ]
-    }
+    "date": "2017-11-10T23:30:00.000Z",
+    "tv": "SportTV",
+    "home": "VÔLEI NESTLÉ",
+    "away": "BRB/BRASÍLIA VÔLEI",
+    "result": null
   },
   {
     "id": 36,
     "round": 6,
-    "date": "2016-11-26T16:10:00.000Z",
+    "date": "2017-11-20T22:00:00.000Z",
     "tv": null,
-    "home": "FLUMINENSE F. C.",
-    "away": "VÔLEI NESTLÉ ",
-    "result": {
-      "homeSets": "0",
-      "awaySets": "3",
-      "partials": [
-        "14-25",
-        "26-28",
-        "28-30"
-      ]
-    }
+    "home": "RENATA VALINHOS / COUNTRY",
+    "away": "SÃO CRISTOVÃO SAÚDE/SÃO CAETANO",
+    "result": null
   },
   {
     "id": 37,
     "round": 7,
-    "date": "2016-11-30T21:00:00.000Z",
+    "date": "2017-11-14T21:30:00.000Z",
     "tv": null,
-    "home": "DENTIL/PRAIA CLUBE",
-    "away": "TERRACAP/BRB/BRASÍLIA VÔLEI",
-    "result": {
-      "homeSets": "0",
-      "awaySets": "3",
-      "partials": [
-        "21-25",
-        "21-25",
-        "17-25"
-      ]
-    }
+    "home": "VÔLEI BAURU",
+    "away": "VÔLEI NESTLÉ",
+    "result": null
   },
   {
     "id": 38,
     "round": 7,
-    "date": "2016-12-02T21:00:00.000Z",
+    "date": "2017-11-14T21:30:00.000Z",
     "tv": null,
-    "home": "SESI-SP",
-    "away": "RENATA VALINHOS / COUNTRY ",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "1",
-      "partials": [
-        "22-25",
-        "25-12",
-        "25-23",
-        "25-20"
-      ]
-    }
+    "home": "E.C.PINHEIROS",
+    "away": "RENATA VALINHOS / COUNTRY",
+    "result": null
   },
   {
     "id": 39,
     "round": 7,
-    "date": "2016-12-02T21:30:00.000Z",
+    "date": "2017-11-14T22:00:00.000Z",
     "tv": null,
-    "home": "SÃO CRISTOVÃO SAÚDE/SÃO CAETANO",
-    "away": "FLUMINENSE F. C.",
-    "result": {
-      "homeSets": "0",
-      "awaySets": "3",
-      "partials": [
-        "16-25",
-        "22-25",
-        "30-32"
-      ]
-    }
+    "home": "FLUMINENSE F. C.",
+    "away": "HINODE BARUERI",
+    "result": null
   },
   {
     "id": 40,
     "round": 7,
-    "date": "2016-12-02T21:30:00.000Z",
+    "date": "2017-11-14T22:00:00.000Z",
     "tv": null,
-    "home": "E.C.PINHEIROS",
-    "away": "GENTER VÔLEI BAURU",
-    "result": {
-      "homeSets": "2",
-      "awaySets": "3",
-      "partials": [
-        "25-22",
-        "25-18",
-        "20-25",
-        "22-25",
-        "10-15"
-      ]
-    }
+    "home": "BRB/BRASÍLIA VÔLEI",
+    "away": "SESC-RJ",
+    "result": null
   },
   {
     "id": 41,
     "round": 7,
-    "date": "2016-12-02T22:15:00.000Z",
-    "tv": null,
-    "home": "RIO DO SUL",
-    "away": "REXONA-SESC",
-    "result": {
-      "homeSets": "0",
-      "awaySets": "3",
-      "partials": [
-        "16-25",
-        "15-25",
-        "12-25"
-      ]
-    }
+    "date": "2017-11-14T23:30:00.000Z",
+    "tv": "SportTV",
+    "home": "CAMPONESA/MINAS",
+    "away": "DENTIL/PRAIA CLUBE",
+    "result": null
   },
   {
     "id": 42,
     "round": 7,
-    "date": "2016-12-03T16:10:00.000Z",
-    "tv": null,
-    "home": "VÔLEI NESTLÉ ",
-    "away": "CAMPONESA/MINAS",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "25-16",
-        "25-11",
-        "25-20"
-      ]
-    }
+    "date": "2017-11-15T19:00:00.000Z",
+    "tv": "SportTV",
+    "home": "SÃO CRISTOVÃO SAÚDE/SÃO CAETANO",
+    "away": "SESI-SP",
+    "result": null
   },
   {
     "id": 43,
     "round": 8,
-    "date": "2016-12-08T23:55:00.000Z",
-    "tv": null,
-    "home": "REXONA-SESC",
-    "away": "TERRACAP/BRB/BRASÍLIA VÔLEI",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "1",
-      "partials": [
-        "25-22",
-        "14-25",
-        "25-21",
-        "25-23"
-      ]
-    }
+    "date": "2017-11-17T19:00:00.000Z",
+    "tv": "SportTV",
+    "home": "SESI-SP",
+    "away": "DENTIL/PRAIA CLUBE",
+    "result": null
   },
   {
     "id": 44,
     "round": 8,
-    "date": "2016-12-09T21:30:00.000Z",
+    "date": "2017-11-17T21:30:00.000Z",
     "tv": null,
-    "home": "RENATA VALINHOS / COUNTRY ",
-    "away": "RIO DO SUL",
-    "result": {
-      "homeSets": "2",
-      "awaySets": "3",
-      "partials": [
-        "20-25",
-        "25-18",
-        "25-23",
-        "21-25",
-        "9-15"
-      ]
-    }
+    "home": "HINODE BARUERI",
+    "away": "BRB/BRASÍLIA VÔLEI",
+    "result": null
   },
   {
     "id": 45,
     "round": 8,
-    "date": "2016-12-09T21:30:00.000Z",
+    "date": "2017-11-17T22:00:00.000Z",
     "tv": null,
-    "home": "GENTER VÔLEI BAURU",
-    "away": "SESI-SP",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "25-17",
-        "25-23",
-        "26-24"
-      ]
-    }
+    "home": "SÃO CRISTOVÃO SAÚDE/SÃO CAETANO",
+    "away": "E.C.PINHEIROS",
+    "result": null
   },
   {
     "id": 46,
     "round": 8,
-    "date": "2016-12-09T21:30:00.000Z",
+    "date": "2017-11-17T22:00:00.000Z",
     "tv": null,
-    "home": "SÃO CRISTOVÃO SAÚDE/SÃO CAETANO",
-    "away": "E.C.PINHEIROS",
-    "result": {
-      "homeSets": "0",
-      "awaySets": "3",
-      "partials": [
-        "11-25",
-        "21-25",
-        "20-25"
-      ]
-    }
+    "home": "RENATA VALINHOS / COUNTRY",
+    "away": "FLUMINENSE F. C.",
+    "result": null
   },
   {
     "id": 47,
     "round": 8,
-    "date": "2016-12-09T22:00:00.000Z",
-    "tv": null,
-    "home": "FLUMINENSE F. C.",
-    "away": "CAMPONESA/MINAS",
-    "result": {
-      "homeSets": "2",
-      "awaySets": "3",
-      "partials": [
-        "25-20",
-        "18-25",
-        "20-25",
-        "25-22",
-        "12-15"
-      ]
-    }
+    "date": "2017-11-17T23:45:00.000Z",
+    "tv": "SportTV",
+    "home": "SESC-RJ",
+    "away": "VÔLEI BAURU",
+    "result": null
   },
   {
     "id": 48,
     "round": 8,
-    "date": "2016-12-09T23:30:00.000Z",
-    "tv": null,
-    "home": "DENTIL/PRAIA CLUBE",
-    "away": "VÔLEI NESTLÉ ",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "2",
-      "partials": [
-        "16-25",
-        "25-22",
-        "23-25",
-        "25-21",
-        "17-15"
-      ]
-    }
+    "date": "2017-11-18T17:00:00.000Z",
+    "tv": "RedeTV",
+    "home": "VÔLEI NESTLÉ",
+    "away": "CAMPONESA/MINAS",
+    "result": null
   },
   {
     "id": 49,
     "round": 9,
-    "date": "2016-12-13T21:00:00.000Z",
-    "tv": null,
-    "home": "SESI-SP",
-    "away": "SÃO CRISTOVÃO SAÚDE/SÃO CAETANO",
-    "result": {
-      "homeSets": "2",
-      "awaySets": "3",
-      "partials": [
-        "22-25",
-        "14-25",
-        "25-21",
-        "25-21",
-        "12-15"
-      ]
-    }
+    "date": "2017-11-24T21:00:00.000Z",
+    "tv": "SportTV",
+    "home": "E.C.PINHEIROS",
+    "away": "SESI-SP",
+    "result": null
   },
   {
     "id": 50,
     "round": 9,
-    "date": "2016-12-13T21:30:00.000Z",
+    "date": "2017-11-24T22:00:00.000Z",
     "tv": null,
-    "home": "E.C.PINHEIROS",
-    "away": "FLUMINENSE F. C.",
-    "result": {
-      "homeSets": "1",
-      "awaySets": "3",
-      "partials": [
-        "21-25",
-        "25-16",
-        "22-25",
-        "21-25"
-      ]
-    }
+    "home": "FLUMINENSE F. C.",
+    "away": "SÃO CRISTOVÃO SAÚDE/SÃO CAETANO",
+    "result": null
   },
   {
     "id": 51,
     "round": 9,
-    "date": "2016-12-13T22:00:00.000Z",
-    "tv": null,
-    "home": "TERRACAP/BRB/BRASÍLIA VÔLEI",
-    "away": "RENATA VALINHOS / COUNTRY ",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "25-15",
-        "25-20",
-        "25-23"
-      ]
-    }
+    "date": "2017-11-24T23:30:00.000Z",
+    "tv": "SportTV",
+    "home": "DENTIL/PRAIA CLUBE",
+    "away": "VÔLEI NESTLÉ",
+    "result": null
   },
   {
     "id": 52,
     "round": 9,
-    "date": "2016-12-13T22:00:00.000Z",
-    "tv": null,
-    "home": "CAMPONESA/MINAS",
-    "away": "DENTIL/PRAIA CLUBE",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "1",
-      "partials": [
-        "18-25",
-        "25-17",
-        "25-22",
-        "25-21"
-      ]
-    }
+    "date": "2017-11-25T17:00:00.000Z",
+    "tv": "RedeTV",
+    "home": "VÔLEI BAURU",
+    "away": "HINODE BARUERI",
+    "result": null
   },
   {
     "id": 53,
     "round": 9,
-    "date": "2016-12-13T22:15:00.000Z",
-    "tv": null,
-    "home": "RIO DO SUL",
-    "away": "GENTER VÔLEI BAURU",
-    "result": {
-      "homeSets": "0",
-      "awaySets": "3",
-      "partials": [
-        "19-25",
-        "21-25",
-        "26-28"
-      ]
-    }
+    "date": "2017-11-26T15:03:00.000Z",
+    "tv": "RedeTV",
+    "home": "CAMPONESA/MINAS",
+    "away": "SESC-RJ",
+    "result": null
   },
   {
     "id": 54,
     "round": 9,
-    "date": "2016-12-13T23:30:00.000Z",
+    "date": "2017-11-28T22:00:00.000Z",
     "tv": null,
-    "home": "VÔLEI NESTLÉ ",
-    "away": "REXONA-SESC",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "2",
-      "partials": [
-        "23-25",
-        "26-24",
-        "20-25",
-        "25-23",
-        "15-13"
-      ]
-    }
+    "home": "BRB/BRASÍLIA VÔLEI",
+    "away": "RENATA VALINHOS / COUNTRY",
+    "result": null
   },
   {
     "id": 55,
     "round": 10,
-    "date": "2016-12-15T23:00:00.000Z",
+    "date": "2017-12-01T21:00:00.000Z",
     "tv": null,
-    "home": "GENTER VÔLEI BAURU",
-    "away": "TERRACAP/BRB/BRASÍLIA VÔLEI",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "25-18",
-        "25-19",
-        "28-26"
-      ]
-    }
+    "home": "SESI-SP",
+    "away": "VÔLEI NESTLÉ",
+    "result": null
   },
   {
     "id": 56,
     "round": 10,
-    "date": "2016-12-16T21:30:00.000Z",
+    "date": "2017-12-01T21:30:00.000Z",
     "tv": null,
-    "home": "VÔLEI NESTLÉ ",
-    "away": "RENATA VALINHOS / COUNTRY ",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "25-13",
-        "25-14",
-        "25-16"
-      ]
-    }
+    "home": "E.C.PINHEIROS",
+    "away": "FLUMINENSE F. C.",
+    "result": null
   },
   {
     "id": 57,
     "round": 10,
-    "date": "2016-12-16T21:30:00.000Z",
+    "date": "2017-12-01T22:00:00.000Z",
     "tv": null,
-    "home": "E.C.PINHEIROS",
-    "away": "SESI-SP",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "1",
-      "partials": [
-        "25-27",
-        "25-16",
-        "25-22",
-        "25-23"
-      ]
-    }
+    "home": "SESC-RJ",
+    "away": "DENTIL/PRAIA CLUBE",
+    "result": null
   },
   {
     "id": 58,
     "round": 10,
-    "date": "2016-12-16T22:00:00.000Z",
+    "date": "2017-12-01T22:00:00.000Z",
     "tv": null,
     "home": "CAMPONESA/MINAS",
-    "away": "REXONA-SESC",
-    "result": {
-      "homeSets": "1",
-      "awaySets": "3",
-      "partials": [
-        "22-25",
-        "25-27",
-        "25-17",
-        "20-25"
-      ]
-    }
+    "away": "HINODE BARUERI",
+    "result": null
   },
   {
     "id": 59,
     "round": 10,
-    "date": "2016-12-17T16:10:00.000Z",
+    "date": "2017-12-01T22:00:00.000Z",
     "tv": null,
-    "home": "FLUMINENSE F. C.",
-    "away": "DENTIL/PRAIA CLUBE",
-    "result": {
-      "homeSets": "1",
-      "awaySets": "3",
-      "partials": [
-        "25-22",
-        "24-26",
-        "15-25",
-        "18-25"
-      ]
-    }
+    "home": "RENATA VALINHOS / COUNTRY",
+    "away": "VÔLEI BAURU",
+    "result": null
   },
   {
     "id": 60,
     "round": 10,
-    "date": "2016-12-18T23:00:00.000Z",
+    "date": "2017-12-02T20:00:00.000Z",
     "tv": null,
-    "home": "SÃO CRISTOVÃO SAÚDE/SÃO CAETANO",
-    "away": "RIO DO SUL",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "25-17",
-        "25-21",
-        "25-20"
-      ]
-    }
+    "home": "BRB/BRASÍLIA VÔLEI",
+    "away": "SÃO CRISTOVÃO SAÚDE/SÃO CAETANO",
+    "result": null
   },
   {
     "id": 61,
     "round": 11,
-    "date": "2016-12-21T21:00:00.000Z",
+    "date": "2017-12-08T21:30:00.000Z",
     "tv": null,
-    "home": "SESI-SP",
-    "away": "FLUMINENSE F. C.",
-    "result": {
-      "homeSets": "0",
-      "awaySets": "3",
-      "partials": [
-        "9-25",
-        "21-25",
-        "24-26"
-      ]
-    }
+    "home": "DENTIL/PRAIA CLUBE",
+    "away": "HINODE BARUERI",
+    "result": null
   },
   {
     "id": 62,
     "round": 11,
-    "date": "2016-12-21T22:00:00.000Z",
+    "date": "2017-12-08T21:30:00.000Z",
     "tv": null,
-    "home": "TERRACAP/BRB/BRASÍLIA VÔLEI",
+    "home": "VÔLEI BAURU",
     "away": "SÃO CRISTOVÃO SAÚDE/SÃO CAETANO",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "2",
-      "partials": [
-        "25-27",
-        "14-25",
-        "25-19",
-        "25-16",
-        "15-10"
-      ]
-    }
+    "result": null
   },
   {
     "id": 63,
     "round": 11,
-    "date": "2016-12-21T22:15:00.000Z",
+    "date": "2017-12-08T21:30:00.000Z",
     "tv": null,
-    "home": "RIO DO SUL",
-    "away": "E.C.PINHEIROS",
-    "result": {
-      "homeSets": "1",
-      "awaySets": "3",
-      "partials": [
-        "18-25",
-        "16-25",
-        "25-17",
-        "21-25"
-      ]
-    }
+    "home": "VÔLEI NESTLÉ",
+    "away": "SESC-RJ",
+    "result": null
   },
   {
     "id": 64,
     "round": 11,
-    "date": "2016-12-21T23:30:00.000Z",
+    "date": "2017-12-08T22:00:00.000Z",
     "tv": null,
-    "home": "CAMPONESA/MINAS",
-    "away": "RENATA VALINHOS / COUNTRY ",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "25-15",
-        "25-17",
-        "25-15"
-      ]
-    }
+    "home": "FLUMINENSE F. C.",
+    "away": "SESI-SP",
+    "result": null
   },
   {
     "id": 65,
     "round": 11,
-    "date": "2016-12-21T23:55:00.000Z",
+    "date": "2017-12-08T22:00:00.000Z",
     "tv": null,
-    "home": "DENTIL/PRAIA CLUBE",
-    "away": "REXONA-SESC",
-    "result": {
-      "homeSets": "0",
-      "awaySets": "3",
-      "partials": [
-        "20-25",
-        "11-25",
-        "21-25"
-      ]
-    }
+    "home": "BRB/BRASÍLIA VÔLEI",
+    "away": "E.C.PINHEIROS",
+    "result": null
   },
   {
     "id": 66,
     "round": 11,
-    "date": "2016-12-22T21:30:00.000Z",
+    "date": "2017-12-08T22:00:00.000Z",
     "tv": null,
-    "home": "VÔLEI NESTLÉ ",
-    "away": "GENTER VÔLEI BAURU",
-    "result": {
-      "homeSets": "3",
-      "awaySets": "0",
-      "partials": [
-        "25-22",
-        "25-18",
-        "25-13"
-      ]
-    }
+    "home": "CAMPONESA/MINAS",
+    "away": "RENATA VALINHOS / COUNTRY",
+    "result": null
   },
   {
     "id": 67,
     "round": 12,
-    "date": "2017-01-06T21:30:00.000Z",
+    "date": "2017-12-19T21:30:00.000Z",
     "tv": null,
-    "home": "DENTIL/PRAIA CLUBE",
-    "away": "RENATA VALINHOS / COUNTRY ",
+    "home": "VÔLEI NESTLÉ",
+    "away": "HINODE BARUERI",
     "result": null
   },
   {
     "id": 68,
     "round": 12,
-    "date": "2017-01-06T23:30:00.000Z",
-    "tv": "SportTV",
-    "home": "RIO DO SUL",
-    "away": "SESI-SP",
+    "date": "2017-12-19T21:30:00.000Z",
+    "tv": null,
+    "home": "DENTIL/PRAIA CLUBE",
+    "away": "RENATA VALINHOS / COUNTRY",
     "result": null
   },
   {
     "id": 69,
     "round": 12,
-    "date": "2017-01-07T20:00:00.000Z",
+    "date": "2017-12-19T21:30:00.000Z",
     "tv": null,
-    "home": "TERRACAP/BRB/BRASÍLIA VÔLEI",
+    "home": "VÔLEI BAURU",
     "away": "E.C.PINHEIROS",
     "result": null
   },
   {
     "id": 70,
     "round": 12,
-    "date": "2017-01-07T22:00:00.000Z",
+    "date": "2017-12-19T22:00:00.000Z",
     "tv": null,
-    "home": "SÃO CRISTOVÃO SAÚDE/SÃO CAETANO",
-    "away": "VÔLEI NESTLÉ ",
+    "home": "SESC-RJ",
+    "away": "SESI-SP",
     "result": null
   },
   {
     "id": 71,
     "round": 12,
-    "date": "2017-01-09T21:30:00.000Z",
+    "date": "2017-12-19T22:00:00.000Z",
     "tv": null,
-    "home": "REXONA-SESC",
-    "away": "FLUMINENSE F. C.",
-    "result": null
-  },
-  {
-    "id": 72,
-    "round": 12,
-    "date": "2017-01-09T22:00:00.000Z",
-    "tv": null,
-    "home": "CAMPONESA/MINAS",
-    "away": "GENTER VÔLEI BAURU",
-    "result": null
-  },
-  {
-    "id": 73,
-    "round": 13,
-    "date": "2017-01-12T23:55:00.000Z",
-    "tv": "RedeTV",
-    "home": "GENTER VÔLEI BAURU",
-    "away": "DENTIL/PRAIA CLUBE",
-    "result": null
-  },
-  {
-    "id": 74,
-    "round": 13,
-    "date": "2017-01-13T21:00:00.000Z",
-    "tv": null,
-    "home": "SESI-SP",
-    "away": "TERRACAP/BRB/BRASÍLIA VÔLEI",
-    "result": null
-  },
-  {
-    "id": 75,
-    "round": 13,
-    "date": "2017-01-13T21:30:00.000Z",
-    "tv": null,
-    "home": "E.C.PINHEIROS",
-    "away": "VÔLEI NESTLÉ ",
-    "result": null
-  },
-  {
-    "id": 76,
-    "round": 13,
-    "date": "2017-01-13T21:30:00.000Z",
-    "tv": null,
-    "home": "RENATA VALINHOS / COUNTRY ",
-    "away": "REXONA-SESC",
-    "result": null
-  },
-  {
-    "id": 77,
-    "round": 13,
-    "date": "2017-01-13T22:15:00.000Z",
-    "tv": null,
-    "home": "RIO DO SUL",
-    "away": "FLUMINENSE F. C.",
-    "result": null
-  },
-  {
-    "id": 78,
-    "round": 13,
-    "date": "2017-01-13T23:30:00.000Z",
-    "tv": "SportTV",
     "home": "SÃO CRISTOVÃO SAÚDE/SÃO CAETANO",
     "away": "CAMPONESA/MINAS",
     "result": null
   },
   {
+    "id": 72,
+    "round": 12,
+    "date": "2017-12-19T22:00:00.000Z",
+    "tv": null,
+    "home": "BRB/BRASÍLIA VÔLEI",
+    "away": "FLUMINENSE F. C.",
+    "result": null
+  },
+  {
+    "id": 73,
+    "round": 13,
+    "date": "2017-12-22T21:00:00.000Z",
+    "tv": null,
+    "home": "SESI-SP",
+    "away": "BRB/BRASÍLIA VÔLEI",
+    "result": null
+  },
+  {
+    "id": 74,
+    "round": 13,
+    "date": "2017-12-22T21:30:00.000Z",
+    "tv": null,
+    "home": "HINODE BARUERI",
+    "away": "SESC-RJ",
+    "result": null
+  },
+  {
+    "id": 75,
+    "round": 13,
+    "date": "2017-12-22T21:30:00.000Z",
+    "tv": null,
+    "home": "E.C.PINHEIROS",
+    "away": "CAMPONESA/MINAS",
+    "result": null
+  },
+  {
+    "id": 76,
+    "round": 13,
+    "date": "2017-12-22T22:00:00.000Z",
+    "tv": null,
+    "home": "FLUMINENSE F. C.",
+    "away": "VÔLEI BAURU",
+    "result": null
+  },
+  {
+    "id": 77,
+    "round": 13,
+    "date": "2017-12-22T22:00:00.000Z",
+    "tv": null,
+    "home": "SÃO CRISTOVÃO SAÚDE/SÃO CAETANO",
+    "away": "DENTIL/PRAIA CLUBE",
+    "result": null
+  },
+  {
+    "id": 78,
+    "round": 13,
+    "date": "2017-12-22T22:00:00.000Z",
+    "tv": null,
+    "home": "RENATA VALINHOS / COUNTRY",
+    "away": "VÔLEI NESTLÉ",
+    "result": null
+  },
+  {
     "id": 79,
     "round": 14,
-    "date": "2017-01-19T23:55:00.000Z",
-    "tv": "RedeTV",
-    "home": "REXONA-SESC",
-    "away": "GENTER VÔLEI BAURU",
+    "date": "2018-01-09T21:30:00.000Z",
+    "tv": null,
+    "home": "HINODE BARUERI",
+    "away": "SESI-SP",
     "result": null
   },
   {
     "id": 80,
     "round": 14,
-    "date": "2017-01-20T21:30:00.000Z",
+    "date": "2018-01-09T21:30:00.000Z",
     "tv": null,
-    "home": "DENTIL/PRAIA CLUBE",
+    "home": "VÔLEI NESTLÉ",
     "away": "SÃO CRISTOVÃO SAÚDE/SÃO CAETANO",
     "result": null
   },
   {
     "id": 81,
     "round": 14,
-    "date": "2017-01-20T22:00:00.000Z",
+    "date": "2018-01-09T21:30:00.000Z",
     "tv": null,
-    "home": "FLUMINENSE F. C.",
-    "away": "RENATA VALINHOS / COUNTRY ",
+    "home": "VÔLEI BAURU",
+    "away": "BRB/BRASÍLIA VÔLEI",
     "result": null
   },
   {
     "id": 82,
     "round": 14,
-    "date": "2017-01-20T23:30:00.000Z",
-    "tv": "SportTV",
-    "home": "CAMPONESA/MINAS",
-    "away": "E.C.PINHEIROS",
+    "date": "2018-01-09T22:00:00.000Z",
+    "tv": null,
+    "home": "SESC-RJ",
+    "away": "RENATA VALINHOS / COUNTRY",
     "result": null
   },
   {
     "id": 83,
     "round": 14,
-    "date": "2017-01-21T16:10:00.000Z",
-    "tv": "RedeTV",
-    "home": "VÔLEI NESTLÉ ",
-    "away": "SESI-SP",
+    "date": "2018-01-09T22:00:00.000Z",
+    "tv": null,
+    "home": "CAMPONESA/MINAS",
+    "away": "FLUMINENSE F. C.",
     "result": null
   },
   {
     "id": 84,
     "round": 14,
-    "date": "2017-01-21T20:00:00.000Z",
+    "date": "2018-01-23T21:30:00.000Z",
     "tv": null,
-    "home": "TERRACAP/BRB/BRASÍLIA VÔLEI",
-    "away": "RIO DO SUL",
+    "home": "DENTIL/PRAIA CLUBE",
+    "away": "E.C.PINHEIROS",
     "result": null
   },
   {
     "id": 85,
     "round": 15,
-    "date": "2017-02-03T21:00:00.000Z",
+    "date": "2018-01-12T21:30:00.000Z",
     "tv": null,
-    "home": "SESI-SP",
-    "away": "CAMPONESA/MINAS",
+    "home": "VÔLEI BAURU",
+    "away": "SESI-SP",
     "result": null
   },
   {
     "id": 86,
     "round": 15,
-    "date": "2017-02-03T21:30:00.000Z",
+    "date": "2018-01-12T21:30:00.000Z",
     "tv": null,
     "home": "E.C.PINHEIROS",
-    "away": "DENTIL/PRAIA CLUBE",
+    "away": "VÔLEI NESTLÉ",
     "result": null
   },
   {
     "id": 87,
     "round": 15,
-    "date": "2017-02-03T21:30:00.000Z",
+    "date": "2018-01-12T22:00:00.000Z",
     "tv": null,
-    "home": "SÃO CRISTOVÃO SAÚDE/SÃO CAETANO",
-    "away": "REXONA-SESC",
+    "home": "CAMPONESA/MINAS",
+    "away": "BRB/BRASÍLIA VÔLEI",
     "result": null
   },
   {
     "id": 88,
     "round": 15,
-    "date": "2017-02-03T21:30:00.000Z",
+    "date": "2018-01-12T22:00:00.000Z",
     "tv": null,
-    "home": "GENTER VÔLEI BAURU",
-    "away": "RENATA VALINHOS / COUNTRY ",
+    "home": "FLUMINENSE F. C.",
+    "away": "DENTIL/PRAIA CLUBE",
     "result": null
   },
   {
     "id": 89,
     "round": 15,
-    "date": "2017-02-03T22:15:00.000Z",
+    "date": "2018-01-12T22:00:00.000Z",
     "tv": null,
-    "home": "RIO DO SUL",
-    "away": "VÔLEI NESTLÉ ",
+    "home": "SÃO CRISTOVÃO SAÚDE/SÃO CAETANO",
+    "away": "SESC-RJ",
     "result": null
   },
   {
     "id": 90,
     "round": 15,
-    "date": "2017-02-04T20:00:00.000Z",
+    "date": "2018-01-12T22:00:00.000Z",
     "tv": null,
-    "home": "TERRACAP/BRB/BRASÍLIA VÔLEI",
-    "away": "FLUMINENSE F. C.",
+    "home": "RENATA VALINHOS / COUNTRY",
+    "away": "HINODE BARUERI",
     "result": null
   },
   {
     "id": 91,
     "round": 16,
-    "date": "2017-02-10T21:30:00.000Z",
+    "date": "2018-01-26T21:30:00.000Z",
     "tv": null,
-    "home": "RENATA VALINHOS / COUNTRY ",
+    "home": "HINODE BARUERI",
     "away": "SÃO CRISTOVÃO SAÚDE/SÃO CAETANO",
     "result": null
   },
   {
     "id": 92,
     "round": 16,
-    "date": "2017-02-10T21:30:00.000Z",
+    "date": "2018-01-26T21:30:00.000Z",
     "tv": null,
-    "home": "REXONA-SESC",
-    "away": "E.C.PINHEIROS",
+    "home": "VÔLEI NESTLÉ",
+    "away": "FLUMINENSE F. C.",
     "result": null
   },
   {
     "id": 93,
     "round": 16,
-    "date": "2017-02-10T21:30:00.000Z",
+    "date": "2018-01-26T21:30:00.000Z",
     "tv": null,
     "home": "DENTIL/PRAIA CLUBE",
-    "away": "SESI-SP",
+    "away": "BRB/BRASÍLIA VÔLEI",
     "result": null
   },
   {
     "id": 94,
     "round": 16,
-    "date": "2017-02-10T21:30:00.000Z",
+    "date": "2018-01-26T22:00:00.000Z",
     "tv": null,
-    "home": "VÔLEI NESTLÉ ",
-    "away": "TERRACAP/BRB/BRASÍLIA VÔLEI",
+    "home": "SESC-RJ",
+    "away": "E.C.PINHEIROS",
     "result": null
   },
   {
     "id": 95,
     "round": 16,
-    "date": "2017-02-10T22:00:00.000Z",
+    "date": "2018-01-26T22:00:00.000Z",
     "tv": null,
-    "home": "FLUMINENSE F. C.",
-    "away": "GENTER VÔLEI BAURU",
+    "home": "CAMPONESA/MINAS",
+    "away": "VÔLEI BAURU",
     "result": null
   },
   {
     "id": 96,
     "round": 16,
-    "date": "2017-02-10T22:00:00.000Z",
+    "date": "2018-01-26T22:00:00.000Z",
     "tv": null,
-    "home": "CAMPONESA/MINAS",
-    "away": "RIO DO SUL",
+    "home": "RENATA VALINHOS / COUNTRY",
+    "away": "SESI-SP",
     "result": null
   },
   {
     "id": 97,
     "round": 17,
-    "date": "2017-01-24T21:00:00.000Z",
+    "date": "2018-01-30T21:30:00.000Z",
     "tv": null,
-    "home": "SESI-SP",
-    "away": "REXONA-SESC",
+    "home": "E.C.PINHEIROS",
+    "away": "HINODE BARUERI",
     "result": null
   },
   {
     "id": 98,
     "round": 17,
-    "date": "2017-02-14T21:30:00.000Z",
+    "date": "2018-01-30T21:30:00.000Z",
     "tv": null,
-    "home": "VÔLEI NESTLÉ ",
-    "away": "FLUMINENSE F. C.",
+    "home": "VÔLEI BAURU",
+    "away": "DENTIL/PRAIA CLUBE",
     "result": null
   },
   {
     "id": 99,
     "round": 17,
-    "date": "2017-02-14T21:30:00.000Z",
+    "date": "2018-01-30T22:00:00.000Z",
     "tv": null,
-    "home": "SÃO CRISTOVÃO SAÚDE/SÃO CAETANO",
-    "away": "GENTER VÔLEI BAURU",
+    "home": "CAMPONESA/MINAS",
+    "away": "SESI-SP",
     "result": null
   },
   {
     "id": 100,
     "round": 17,
-    "date": "2017-02-14T21:30:00.000Z",
+    "date": "2018-01-30T22:00:00.000Z",
     "tv": null,
-    "home": "E.C.PINHEIROS",
-    "away": "RENATA VALINHOS / COUNTRY ",
+    "home": "BRB/BRASÍLIA VÔLEI",
+    "away": "VÔLEI NESTLÉ",
     "result": null
   },
   {
     "id": 101,
     "round": 17,
-    "date": "2017-02-14T22:00:00.000Z",
+    "date": "2018-01-30T22:00:00.000Z",
     "tv": null,
-    "home": "TERRACAP/BRB/BRASÍLIA VÔLEI",
-    "away": "CAMPONESA/MINAS",
+    "home": "FLUMINENSE F. C.",
+    "away": "SESC-RJ",
     "result": null
   },
   {
     "id": 102,
     "round": 17,
-    "date": "2017-02-14T22:15:00.000Z",
+    "date": "2018-01-30T22:00:00.000Z",
     "tv": null,
-    "home": "RIO DO SUL",
-    "away": "DENTIL/PRAIA CLUBE",
+    "home": "SÃO CRISTOVÃO SAÚDE/SÃO CAETANO",
+    "away": "RENATA VALINHOS / COUNTRY",
     "result": null
   },
   {
     "id": 103,
     "round": 18,
-    "date": "2017-02-17T21:30:00.000Z",
+    "date": "2018-02-02T21:00:00.000Z",
     "tv": null,
-    "home": "GENTER VÔLEI BAURU",
-    "away": "E.C.PINHEIROS",
+    "home": "SESI-SP",
+    "away": "SÃO CRISTOVÃO SAÚDE/SÃO CAETANO",
     "result": null
   },
   {
     "id": 104,
     "round": 18,
-    "date": "2017-02-17T21:30:00.000Z",
+    "date": "2018-02-02T21:30:00.000Z",
     "tv": null,
-    "home": "RENATA VALINHOS / COUNTRY ",
-    "away": "SESI-SP",
+    "home": "VÔLEI NESTLÉ",
+    "away": "VÔLEI BAURU",
     "result": null
   },
   {
     "id": 105,
     "round": 18,
-    "date": "2017-02-17T21:30:00.000Z",
+    "date": "2018-02-02T21:30:00.000Z",
     "tv": null,
-    "home": "REXONA-SESC",
-    "away": "RIO DO SUL",
+    "home": "HINODE BARUERI",
+    "away": "FLUMINENSE F. C.",
     "result": null
   },
   {
     "id": 106,
     "round": 18,
-    "date": "2017-02-17T22:00:00.000Z",
+    "date": "2018-02-02T22:00:00.000Z",
     "tv": null,
-    "home": "FLUMINENSE F. C.",
-    "away": "SÃO CRISTOVÃO SAÚDE/SÃO CAETANO",
+    "home": "SESC-RJ",
+    "away": "BRB/BRASÍLIA VÔLEI",
     "result": null
   },
   {
     "id": 107,
     "round": 18,
-    "date": "2017-02-17T22:00:00.000Z",
+    "date": "2018-02-02T22:00:00.000Z",
     "tv": null,
-    "home": "CAMPONESA/MINAS",
-    "away": "VÔLEI NESTLÉ ",
+    "home": "RENATA VALINHOS / COUNTRY",
+    "away": "E.C.PINHEIROS",
     "result": null
   },
   {
     "id": 108,
     "round": 18,
-    "date": "2017-02-18T20:00:00.000Z",
+    "date": "2018-02-03T20:00:00.000Z",
     "tv": null,
-    "home": "TERRACAP/BRB/BRASÍLIA VÔLEI",
-    "away": "DENTIL/PRAIA CLUBE",
+    "home": "DENTIL/PRAIA CLUBE",
+    "away": "CAMPONESA/MINAS",
     "result": null
   },
   {
     "id": 109,
     "round": 19,
-    "date": "2017-02-23T22:00:00.000Z",
-    "tv": null,
-    "home": "SESI-SP",
-    "away": "GENTER VÔLEI BAURU",
-    "result": null
-  },
-  {
-    "id": 110,
-    "round": 19,
-    "date": "2017-02-23T22:30:00.000Z",
-    "tv": null,
-    "home": "VÔLEI NESTLÉ ",
-    "away": "DENTIL/PRAIA CLUBE",
-    "result": null
-  },
-  {
-    "id": 111,
-    "round": 19,
-    "date": "2017-02-23T22:30:00.000Z",
+    "date": "2018-02-07T21:30:00.000Z",
     "tv": null,
     "home": "E.C.PINHEIROS",
     "away": "SÃO CRISTOVÃO SAÚDE/SÃO CAETANO",
     "result": null
   },
   {
-    "id": 112,
+    "id": 110,
     "round": 19,
-    "date": "2017-02-23T23:00:00.000Z",
+    "date": "2018-02-07T21:30:00.000Z",
+    "tv": null,
+    "home": "VÔLEI BAURU",
+    "away": "SESC-RJ",
+    "result": null
+  },
+  {
+    "id": 111,
+    "round": 19,
+    "date": "2018-02-07T22:00:00.000Z",
     "tv": null,
     "home": "CAMPONESA/MINAS",
-    "away": "FLUMINENSE F. C.",
+    "away": "VÔLEI NESTLÉ",
+    "result": null
+  },
+  {
+    "id": 112,
+    "round": 19,
+    "date": "2018-02-07T22:00:00.000Z",
+    "tv": null,
+    "home": "BRB/BRASÍLIA VÔLEI",
+    "away": "HINODE BARUERI",
     "result": null
   },
   {
     "id": 113,
     "round": 19,
-    "date": "2017-02-23T23:00:00.000Z",
+    "date": "2018-02-08T21:30:00.000Z",
     "tv": null,
-    "home": "TERRACAP/BRB/BRASÍLIA VÔLEI",
-    "away": "REXONA-SESC",
+    "home": "DENTIL/PRAIA CLUBE",
+    "away": "SESI-SP",
     "result": null
   },
   {
     "id": 114,
     "round": 19,
-    "date": "2017-02-23T23:15:00.000Z",
+    "date": "2018-02-08T22:00:00.000Z",
     "tv": null,
-    "home": "RIO DO SUL",
-    "away": "RENATA VALINHOS / COUNTRY ",
+    "home": "FLUMINENSE F. C.",
+    "away": "RENATA VALINHOS / COUNTRY",
     "result": null
   },
   {
     "id": 115,
     "round": 20,
-    "date": "2017-03-03T22:30:00.000Z",
+    "date": "2018-02-16T21:00:00.000Z",
     "tv": null,
-    "home": "SÃO CRISTOVÃO SAÚDE/SÃO CAETANO",
-    "away": "SESI-SP",
+    "home": "SESI-SP",
+    "away": "E.C.PINHEIROS",
     "result": null
   },
   {
     "id": 116,
     "round": 20,
-    "date": "2017-03-03T22:30:00.000Z",
+    "date": "2018-02-16T21:30:00.000Z",
     "tv": null,
-    "home": "GENTER VÔLEI BAURU",
-    "away": "RIO DO SUL",
+    "home": "VÔLEI NESTLÉ",
+    "away": "DENTIL/PRAIA CLUBE",
     "result": null
   },
   {
     "id": 117,
     "round": 20,
-    "date": "2017-03-03T22:30:00.000Z",
+    "date": "2018-02-16T21:30:00.000Z",
     "tv": null,
-    "home": "RENATA VALINHOS / COUNTRY ",
-    "away": "TERRACAP/BRB/BRASÍLIA VÔLEI",
+    "home": "HINODE BARUERI",
+    "away": "VÔLEI BAURU",
     "result": null
   },
   {
     "id": 118,
     "round": 20,
-    "date": "2017-03-03T22:30:00.000Z",
+    "date": "2018-02-16T22:00:00.000Z",
     "tv": null,
-    "home": "REXONA-SESC",
-    "away": "VÔLEI NESTLÉ ",
+    "home": "SÃO CRISTOVÃO SAÚDE/SÃO CAETANO",
+    "away": "FLUMINENSE F. C.",
     "result": null
   },
   {
     "id": 119,
     "round": 20,
-    "date": "2017-03-03T22:30:00.000Z",
+    "date": "2018-02-16T22:00:00.000Z",
     "tv": null,
-    "home": "DENTIL/PRAIA CLUBE",
+    "home": "SESC-RJ",
     "away": "CAMPONESA/MINAS",
     "result": null
   },
   {
     "id": 120,
     "round": 20,
-    "date": "2017-03-03T23:00:00.000Z",
+    "date": "2018-02-16T22:00:00.000Z",
     "tv": null,
-    "home": "FLUMINENSE F. C.",
-    "away": "E.C.PINHEIROS",
+    "home": "RENATA VALINHOS / COUNTRY",
+    "away": "BRB/BRASÍLIA VÔLEI",
     "result": null
   },
   {
     "id": 121,
     "round": 21,
-    "date": "2017-03-07T21:00:00.000Z",
+    "date": "2018-01-23T21:30:00.000Z",
     "tv": null,
-    "home": "TERRACAP/BRB/BRASÍLIA VÔLEI",
-    "away": "GENTER VÔLEI BAURU",
+    "home": "HINODE BARUERI",
+    "away": "CAMPONESA/MINAS",
     "result": null
   },
   {
     "id": 122,
     "round": 21,
-    "date": "2017-03-07T22:00:00.000Z",
+    "date": "2018-02-23T22:30:00.000Z",
     "tv": null,
-    "home": "SESI-SP",
-    "away": "E.C.PINHEIROS",
+    "home": "VÔLEI NESTLÉ",
+    "away": "SESI-SP",
     "result": null
   },
   {
     "id": 123,
     "round": 21,
-    "date": "2017-03-07T22:30:00.000Z",
+    "date": "2018-02-23T22:30:00.000Z",
     "tv": null,
-    "home": "DENTIL/PRAIA CLUBE",
-    "away": "FLUMINENSE F. C.",
+    "home": "VÔLEI BAURU",
+    "away": "RENATA VALINHOS / COUNTRY",
     "result": null
   },
   {
     "id": 124,
     "round": 21,
-    "date": "2017-03-07T22:30:00.000Z",
+    "date": "2018-02-23T23:00:00.000Z",
     "tv": null,
-    "home": "REXONA-SESC",
-    "away": "CAMPONESA/MINAS",
+    "home": "SÃO CRISTOVÃO SAÚDE/SÃO CAETANO",
+    "away": "BRB/BRASÍLIA VÔLEI",
     "result": null
   },
   {
     "id": 125,
     "round": 21,
-    "date": "2017-03-07T22:30:00.000Z",
+    "date": "2018-02-23T23:00:00.000Z",
     "tv": null,
-    "home": "RENATA VALINHOS / COUNTRY ",
-    "away": "VÔLEI NESTLÉ ",
+    "home": "FLUMINENSE F. C.",
+    "away": "E.C.PINHEIROS",
     "result": null
   },
   {
     "id": 126,
     "round": 21,
-    "date": "2017-03-07T23:15:00.000Z",
+    "date": "2018-02-27T22:30:00.000Z",
     "tv": null,
-    "home": "RIO DO SUL",
-    "away": "SÃO CRISTOVÃO SAÚDE/SÃO CAETANO",
+    "home": "DENTIL/PRAIA CLUBE",
+    "away": "SESC-RJ",
     "result": null
   },
   {
     "id": 127,
     "round": 22,
-    "date": "2017-03-11T03:00:00.000Z",
+    "date": "2018-03-02T03:00:00.000Z",
     "tv": null,
-    "home": "FLUMINENSE F. C.",
-    "away": "SESI-SP",
+    "home": "SESI-SP",
+    "away": "FLUMINENSE F. C.",
     "result": null
   },
   {
     "id": 128,
     "round": 22,
-    "date": "2017-03-11T03:00:00.000Z",
+    "date": "2018-03-02T03:00:00.000Z",
     "tv": null,
     "home": "E.C.PINHEIROS",
-    "away": "RIO DO SUL",
+    "away": "BRB/BRASÍLIA VÔLEI",
     "result": null
   },
   {
     "id": 129,
     "round": 22,
-    "date": "2017-03-11T03:00:00.000Z",
+    "date": "2018-03-02T03:00:00.000Z",
     "tv": null,
     "home": "SÃO CRISTOVÃO SAÚDE/SÃO CAETANO",
-    "away": "TERRACAP/BRB/BRASÍLIA VÔLEI",
+    "away": "VÔLEI BAURU",
     "result": null
   },
   {
     "id": 130,
     "round": 22,
-    "date": "2017-03-11T03:00:00.000Z",
+    "date": "2018-03-02T03:00:00.000Z",
     "tv": null,
-    "home": "GENTER VÔLEI BAURU",
-    "away": "VÔLEI NESTLÉ ",
+    "home": "RENATA VALINHOS / COUNTRY",
+    "away": "CAMPONESA/MINAS",
     "result": null
   },
   {
     "id": 131,
     "round": 22,
-    "date": "2017-03-11T03:00:00.000Z",
+    "date": "2018-03-02T03:00:00.000Z",
     "tv": null,
-    "home": "RENATA VALINHOS / COUNTRY ",
-    "away": "CAMPONESA/MINAS",
+    "home": "HINODE BARUERI",
+    "away": "DENTIL/PRAIA CLUBE",
     "result": null
   },
   {
     "id": 132,
     "round": 22,
-    "date": "2017-03-11T03:00:00.000Z",
+    "date": "2018-03-02T03:00:00.000Z",
     "tv": null,
-    "home": "REXONA-SESC",
-    "away": "DENTIL/PRAIA CLUBE",
+    "home": "SESC-RJ",
+    "away": "VÔLEI NESTLÉ",
     "result": null
   }
 ]

@@ -30,8 +30,8 @@ var getFixtures = function(url) {
                     if (img.length > 0) {
                         tv = img.attr('src').indexOf('sportv') >= 0 ? 'SportTV' : 'RedeTV';
                     }
-                    var home = $(this).find('.equipes').children().first().children().last().text();
-                    var away = $(this).find('.equipes').children().last().children().last().text();
+                    var home = $(this).find('.equipes').children().first().text().trim();
+                    var away = $(this).find('.equipes').children().last().text().trim();
                     var sets = $(this).find('.sets').text().trim().replace(/\s+/g, '');
 
                     var result = null;

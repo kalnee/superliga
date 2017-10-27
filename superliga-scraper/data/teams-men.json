@@ -7,19 +7,19 @@
   },
   {
     "id": 2,
-    "name": "SÃO BERNARDO VÔLEI",
-    "code": "SBV",
-    "logo": "http://superliga.cbv.com.br/img/equipes/masc_4.png"
+    "name": "CORINTHIANS-GUARULHOS",
+    "code": "COG",
+    "logo": "http://superliga.cbv.com.br/img/equipes/masc_15.png"
   },
   {
     "id": 3,
-    "name": "VÔLEI BRASIL KIRIN",
-    "code": "BRK",
-    "logo": "http://superliga.cbv.com.br/img/equipes/masc_5.png"
+    "name": "SESC-RJ",
+    "code": "SRJ",
+    "logo": "http://superliga.cbv.com.br/img/equipes/masc_14.png"
   },
   {
     "id": 4,
-    "name": "LEBES GEDORE CANOAS",
+    "name": "LEBES CANOAS",
     "code": "CAN",
     "logo": "http://superliga.cbv.com.br/img/equipes/masc_6.png"
   },
@@ -37,7 +37,7 @@
   },
   {
     "id": 7,
-    "name": "FUNVIC TAUBATÉ",
+    "name": "EMS TAUBATÉ FUNVIC",
     "code": "TAU",
     "logo": "http://superliga.cbv.com.br/img/equipes/masc_11.png"
   },
@@ -55,9 +55,9 @@
   },
   {
     "id": 10,
-    "name": "BENTO VÔLEI ISABELA",
-    "code": "BTV",
-    "logo": "http://superliga.cbv.com.br/img/equipes/masc_57.png"
+    "name": "VÔLEI RENATA",
+    "code": "VOR",
+    "logo": "http://superliga.cbv.com.br/img/equipes/masc_5.png"
   },
   {
     "id": 11,
@@ -67,7 +67,7 @@
   },
   {
     "id": 12,
-    "name": "CARAMURU VÔLEI / CASTRO",
+    "name": "PONTA GROSSA CARAMURU",
     "code": "CAR",
     "logo": "http://superliga.cbv.com.br/img/equipes/masc_59.png"
   }
